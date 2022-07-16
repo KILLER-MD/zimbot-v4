@@ -1,8 +1,8 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/KILLER-MD/zimbot-v4  /Drips/Zimbotv4
+RUN git clone https://github.com/KILLER-MD/zimbot-v4  /Asif/Areobot 
 
-WORKDIR /Drips/Zimbotv4
+WORKDIR /Asif/Areobot
 
 ENV TZ=Africa/Harare
 
