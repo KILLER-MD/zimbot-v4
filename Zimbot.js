@@ -7291,459 +7291,459 @@ anu = `
 └───────────●
 
 ┌───〔 *_◉ᴍᴇɴᴜ◉_* 〕
-┊🪨downloadmenu
-┊🪨groupmenu
-┊🪨animemenu
-┊🪨searchmenu
-┊🪨ownermenu
-┊🪨databasemenu
-┊🪨textpromenu
-┊🪨ephotomenu
-┊🪨toolsmenu
-┊🪨convertmenu
+┊🪩downloadmenu
+┊🪩groupmenu
+┊🪩animemenu
+┊🪩searchmenu
+┊🪩ownermenu
+┊🪩databasemenu
+┊🪩textpromenu
+┊🪩ephotomenu
+┊🪩toolsmenu
+┊🪩convertmenu
 └───────────●
 
 ┌───〔 *_ᴛᴏᴏʟᴍᴇɴᴜ_* 〕
-┊🪨ip ->-
-┊🪨ipdomain -domain name-
-┊🪨codecolor -text-
-┊🪨hackermaker -pic url-
-┊🪨checknumber -number-
-┊🪨veriphone -number-
-┊🪨weather -place-
-┊🪨attp -text-
-┊🪨ssweb-hp -url-
-┊🪨shortlink -url-
-┊🪨ssweb-pc -url-
-┊🪨shortlinkcuttly -url-
-┊🪨shortlinkisgd -url-
-┊🪨brainly -query-
+┊🪩ip ->-
+┊🪩ipdomain -domain name-
+┊🪩codecolor -text-
+┊🪩hackermaker -pic url-
+┊🪩checknumber -number-
+┊🪩veriphone -number-
+┊🪩weather -place-
+┊🪩attp -text-
+┊🪩ssweb-hp -url-
+┊🪩shortlink -url-
+┊🪩ssweb-pc -url-
+┊🪩shortlinkcuttly -url-
+┊🪩shortlinkisgd -url-
+┊🪩brainly -query-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_◉ᴏᴡɴᴇʀᴍᴇɴᴜ◉_* 〕
-┊🪨chatbot on/off
-┊🪨setmenu -option-
-┊🪨checkupdate 
-┊🪨updatenow
-┊🪨bc -text-
-┊🪨bcall -text-
-┊🪨bctext -text-
-┊🪨bcvideo -media-
-┊🪨bcaudio -media-
-┊🪨bcimage -media-
-┊🪨bcloc  -text-
-┊🪨bcgc -text-
-┊🪨lockcmd
-┊🪨setstatus -text-
-┊🪨setppbot -owner-
-┊🪨block -owner-
-┊🪨unblock -owner-
-┊🪨join -owner-
-┊🪨leave -owner-
-┊🪨chat -owner-
-┊🪨public
-┊🪨self
-┊🪨grouponly
+┊🪩chatbot on/off
+┊🪩setmenu -option-
+┊🪩checkupdate 
+┊🪩updatenow
+┊🪩bc -text-
+┊🪩bcall -text-
+┊🪩bctext -text-
+┊🪩bcvideo -media-
+┊🪩bcaudio -media-
+┊🪩bcimage -media-
+┊🪩bcloc  -text-
+┊🪩bcgc -text-
+┊🪩lockcmd
+┊🪩setstatus -text-
+┊🪩setppbot -owner-
+┊🪩block -owner-
+┊🪩unblock -owner-
+┊🪩join -owner-
+┊🪩leave -owner-
+┊🪩chat -owner-
+┊🪩public
+┊🪩self
+┊🪩grouponly
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_◉ɢʀᴏᴜᴘᴍᴇɴᴜ◉_* 〕
-┊🪨add -admin-
-┊🪨kick -admin-
-┊🪨welcome on/off -admin-
-┊🪨listpc 
-┊🪨listgc
-┊🪨groupinfo -admin-
-┊🪨antivn -admin-
-┊🪨antiphoto -admin-
-┊🪨antisticker -admin-
-┊🪨antivideo -admin-
-┊🪨antilinkall -admin-
-┊🪨antiinstagram -admin-
-┊🪨antitelegram -admin-
-┊🪨antilink -admin-
-┊🪨antiyt -admin-
-┊🪨antibule -admin-
-┊🪨antitiktok -admin-
-┊🪨antifacebook -admin-
-┊🪨antivirus -admin-
-┊🪨antibadword -admin-
-┊🪨antiwame -admin-
-┊🪨group -options-
-┊🪨mute
-┊🪨groupinfo
-┊🪨truth 
-┊🪨dare
-┊🪨slot
-┊🪨math
-┊🪨vote
-┊🪨devote
-┊🪨cekvote
-┊🪨deletevote
-┊🪨upvote
-┊🪨setsubject -admin-
-┊🪨setdesc -admin-
-┊🪨setppgroup -admin-
-┊🪨tagall -admin-
-┊🪨hidetag -admin-
-┊🪨ephemeral
-┊🪨demote -admin-
-┊🪨promote -admin-
-┊🪨editinfo -admin-
+┊🪩add -admin-
+┊🪩kick -admin-
+┊🪩welcome on/off -admin-
+┊🪩listpc 
+┊🪩listgc
+┊🪩groupinfo -admin-
+┊🪩antivn -admin-
+┊🪩antiphoto -admin-
+┊🪩antisticker -admin-
+┊🪩antivideo -admin-
+┊🪩antilinkall -admin-
+┊🪩antiinstagram -admin-
+┊🪩antitelegram -admin-
+┊🪩antilink -admin-
+┊🪩antiyt -admin-
+┊🪩antibule -admin-
+┊🪩antitiktok -admin-
+┊🪩antifacebook -admin-
+┊🪩antivirus -admin-
+┊🪩antibadword -admin-
+┊🪩antiwame -admin-
+┊🪩group -options-
+┊🪩mute
+┊🪩groupinfo
+┊🪩truth 
+┊🪩dare
+┊🪩slot
+┊🪩math
+┊🪩vote
+┊🪩devote
+┊🪩cekvote
+┊🪩deletevote
+┊🪩upvote
+┊🪩setsubject -admin-
+┊🪩setdesc -admin-
+┊🪩setppgroup -admin-
+┊🪩tagall -admin-
+┊🪩hidetag -admin-
+┊🪩ephemeral
+┊🪩demote -admin-
+┊🪩promote -admin-
+┊🪩editinfo -admin-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_◉ᴛᴇxᴛᴘʀᴏᴍᴇɴᴜ◉_* 〕
-┊🪨candy -text-
-┊🪨christmas -text-
-┊🪨3dchristmas -text-
-┊🪨sparklechristmas -text-
-┊🪨deepsea -text-
-┊🪨scifi -text-
-┊🪨rainbow2 -text-
-┊🪨waterpipe -text-
-┊🪨spooky -text-
-┊🪨pencil -text-
-┊🪨circuit -text-
-┊🪨discovery -text-
-┊🪨metalic -text-
-┊🪨fiction -text-
-┊🪨demon -text-
-┊🪨transformer -text-
-┊🪨berry -text-
-┊🪨thunder -text-
-┊🪨3dstone2 -text-
-┊🪨neonlight -text-
-┊🪨glitch -text-
-┊🪨harrypotter -text-
-┊🪨brokenglass -text-
-┊🪨papercut -text-
-┊🪨watercolor -text-
-┊🪨multicolor -text-
-┊🪨neondevil -text-
-┊🪨underwater -text-
-┊🪨graffitibike -text-
-┊🪨snow -text-
-┊🪨cloud -text-
-┊🪨honey -text-
-┊🪨ice -text-
-┊🪨fruitjuice -text-
-┊🪨biscuit -text-
-┊🪨wood -text-
-┊🪨chocolate -text-
-┊🪨strawberry -text-
-┊🪨matrix -text-
-┊🪨blood -text-
-┊🪨dropwater -text-
-┊🪨toxic -text-
-┊🪨lava -text-
-┊🪨rock -text-
-┊🪨bloodglass -text-
-┊🪨halloween -text-
-┊🪨darkgold -text-
-┊🪨joker -text-
-┊🪨wicker -text-
-┊🪨firework -text-
-┊🪨skeleton -text-
-┊🪨blackpink -text-
-┊🪨sand -text-
-┊🪨glue -text-
-┊🪨1917 -text-
-┊🪨leaves -text-
+┊🪩candy -text-
+┊🪩christmas -text-
+┊🪩3dchristmas -text-
+┊🪩sparklechristmas -text-
+┊🪩deepsea -text-
+┊🪩scifi -text-
+┊🪩rainbow2 -text-
+┊🪩waterpipe -text-
+┊🪩spooky -text-
+┊🪩pencil -text-
+┊🪩circuit -text-
+┊🪩discovery -text-
+┊🪩metalic -text-
+┊🪩fiction -text-
+┊🪩demon -text-
+┊🪩transformer -text-
+┊🪩berry -text-
+┊🪩thunder -text-
+┊🪩3dstone2 -text-
+┊🪩neonlight -text-
+┊🪩glitch -text-
+┊🪩harrypotter -text-
+┊🪩brokenglass -text-
+┊🪩papercut -text-
+┊🪩watercolor -text-
+┊🪩multicolor -text-
+┊🪩neondevil -text-
+┊🪩underwater -text-
+┊🪩graffitibike -text-
+┊🪩snow -text-
+┊🪩cloud -text-
+┊🪩honey -text-
+┊🪩ice -text-
+┊🪩fruitjuice -text-
+┊🪩biscuit -text-
+┊🪩wood -text-
+┊🪩chocolate -text-
+┊🪩strawberry -text-
+┊🪩matrix -text-
+┊🪩blood -text-
+┊🪩dropwater -text-
+┊🪩toxic -text-
+┊🪩lava -text-
+┊🪩rock -text-
+┊🪩bloodglass -text-
+┊🪩halloween -text-
+┊🪩darkgold -text-
+┊🪩joker -text-
+┊🪩wicker -text-
+┊🪩firework -text-
+┊🪩skeleton -text-
+┊🪩blackpink -text-
+┊🪩sand -text-
+┊🪩glue -text-
+┊🪩1917 -text-
+┊🪩leaves -text-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_ᴅᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ_* 〕
-┊🪨ytmp3 -link-
-┊🪨ytmp4 -link-
-┊🪨audio  -link-
-┊🪨play -query-
-┊🪨song -query-
-┊🪨play2 -query-
-┊🪨mediafire -link-
-┊🪨fb -link-
-┊🪨fb2 -link-
-┊🪨ytsvideo -query-
-┊🪨getmusic -query-
-┊🪨getvideo -query-
-┊🪨savefrom -query-
-┊🪨pindl -query-
-┊🪨joox -query-
-┊🪨tiktok -link-
-┊🪨tiktok2 -link-
-┊🪨twitter -link-
-┊🪨twitter2 -link-
-┊🪨tiktok3 -link-
-┊🪨tiktok4 -link-
-┊🪨ig -link-
-┊🪨instagramstory -link-
-┊🪨instagramstory2 -link-
-┊🪨igimage -link-
-┊🪨instagramreal -link-
-┊🪨soundcloud -link-
-┊🪨ytshorts -link-
-┊🪨unma -link-
-┊🪨twitteraudio -link-
-┊🪨ytsaudio -query-
-┊🪨ytsvideo -query-
-┊🪨yts2 -query-
-┊🪨fbdl -link-
-┊🪨fbvideo -link-
-┊🪨get -link-
-┊🪨tiktok5 -link-
-┊🪨titktok3 -link-
-┊🪨tiktokmp3 -link-
-┊🪨ttmp3 -link-
-┊🪨ig2 -link-
-┊🪨ig3 -link-
-┊🪨igimage -link-
-┊🪨igtv -link-
-┊🪨fbmp3 -link-
-┊🪨ytdl -link-
+┊🪩ytmp3 -link-
+┊🪩ytmp4 -link-
+┊🪩audio  -link-
+┊🪩play -query-
+┊🪩song -query-
+┊🪩play2 -query-
+┊🪩mediafire -link-
+┊🪩fb -link-
+┊🪩fb2 -link-
+┊🪩ytsvideo -query-
+┊🪩getmusic -query-
+┊🪩getvideo -query-
+┊🪩savefrom -query-
+┊🪩pindl -query-
+┊🪩joox -query-
+┊🪩tiktok -link-
+┊🪩tiktok2 -link-
+┊🪩twitter -link-
+┊🪩twitter2 -link-
+┊🪩tiktok3 -link-
+┊🪩tiktok4 -link-
+┊🪩ig -link-
+┊🪩instagramstory -link-
+┊🪩instagramstory2 -link-
+┊🪩igimage -link-
+┊🪩instagramreal -link-
+┊🪩soundcloud -link-
+┊🪩ytshorts -link-
+┊🪩unma -link-
+┊🪩twitteraudio -link-
+┊🪩ytsaudio -query-
+┊🪩ytsvideo -query-
+┊🪩yts2 -query-
+┊🪩fbdl -link-
+┊🪩fbvideo -link-
+┊🪩get -link-
+┊🪩tiktok5 -link-
+┊🪩titktok3 -link-
+┊🪩tiktokmp3 -link-
+┊🪩ttmp3 -link-
+┊🪩ig2 -link-
+┊🪩ig3 -link-
+┊🪩igimage -link-
+┊🪩igtv -link-
+┊🪩fbmp3 -link-
+┊🪩ytdl -link-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_ᴘʜᴏᴛꜰɪʟᴛᴇʀᴍᴇɴᴜ_* 〕
-┊🪨angie -photo-
-┊🪨aria -photo-
-┊🪨attic -photo-
-┊🪨blackandwhite -photo-
-┊🪨chorme1977 -photo-
-┊🪨constrastbandw -photo-
-┊🪨creamy -photo-
-┊🪨duotone -photo-
-┊🪨eva -photo-
-┊🪨goldenhour -photo-
-┊🪨hana -photo-
-┊🪨lavander -photo-
-┊🪨lemonande -photo-
-┊🪨lightleak -photo-
-┊🪨lisa -photo-
-┊🪨lomo -photo-
-┊🪨milk -photo-
-┊🪨molly -photo-
-┊🪨monochrome -photo-
-┊🪨morning -photo-
-┊🪨movie -photo-
-┊🪨orton -photo-
-┊🪨paretro -photo-
-┊🪨perfectbandw -photo-
-┊🪨plumy -photo-
-┊🪨retrolga -photo-
-┊🪨ruby -photo-
-┊🪨sand -photo-
-┊🪨sapphire -photo-
-┊🪨sepia -photo-
-┊🪨softsepia -photo-
-┊🪨solarize -photo-
-┊🪨sphinx -photo-
-┊🪨venus -photo-
-┊🪨japanese -photo-
-┊🪨hdr -photo-
-┊🪨viewfilter -photo-
-┊🪨warmsunset -photo-
+┊🪩angie -photo-
+┊🪩aria -photo-
+┊🪩attic -photo-
+┊🪩blackandwhite -photo-
+┊🪩chorme1977 -photo-
+┊🪩constrastbandw -photo-
+┊🪩creamy -photo-
+┊🪩duotone -photo-
+┊🪩eva -photo-
+┊🪩goldenhour -photo-
+┊🪩hana -photo-
+┊🪩lavander -photo-
+┊🪩lemonande -photo-
+┊🪩lightleak -photo-
+┊🪩lisa -photo-
+┊🪩lomo -photo-
+┊🪩milk -photo-
+┊🪩molly -photo-
+┊🪩monochrome -photo-
+┊🪩morning -photo-
+┊🪩movie -photo-
+┊🪩orton -photo-
+┊🪩paretro -photo-
+┊🪩perfectbandw -photo-
+┊🪩plumy -photo-
+┊🪩retrolga -photo-
+┊🪩ruby -photo-
+┊🪩sand -photo-
+┊🪩sapphire -photo-
+┊🪩sepia -photo-
+┊🪩softsepia -photo-
+┊🪩solarize -photo-
+┊🪩sphinx -photo-
+┊🪩venus -photo-
+┊🪩japanese -photo-
+┊🪩hdr -photo-
+┊🪩viewfilter -photo-
+┊🪩warmsunset -photo-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_ɴꜱꜰᴡᴍᴇɴᴜ_* 〕
-┊🪨masturbation
-┊🪨jahy
-┊🪨hentai
-┊🪨glasses
-┊🪨gangbang
-┊🪨foot
-┊🪨femdom
-┊🪨cum
-┊🪨ero
-┊🪨cuckhold
-┊🪨blowjob
-┊🪨bdsm
-┊🪨ahegao
-┊🪨ass
-┊🪨orgy
-┊🪨panties
-┊🪨pussy
-┊🪨yuri
-┊🪨thighs
-┊🪨tentacles
+┊🪩masturbation
+┊🪩jahy
+┊🪩hentai
+┊🪩glasses
+┊🪩gangbang
+┊🪩foot
+┊🪩femdom
+┊🪩cum
+┊🪩ero
+┊🪩cuckhold
+┊🪩blowjob
+┊🪩bdsm
+┊🪩ahegao
+┊🪩ass
+┊🪩orgy
+┊🪩panties
+┊🪩pussy
+┊🪩yuri
+┊🪩thighs
+┊🪩tentacles
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_ᴀɴɪᴍᴇᴍᴇɴᴜ_* 〕
-┊🪨cry
-┊🪨kill
-┊🪨hug
-┊🪨pat
-┊🪨lick
-┊🪨kiss
-┊🪨bite
-┊🪨yeet
-┊🪨neko
-┊🪨bully
-┊🪨bonk
-┊🪨wink
-┊🪨poke
-┊🪨nom
-┊🪨slap
-┊🪨smile
-┊🪨wave
-┊🪨awoo
-┊🪨blush
-┊🪨smug
-┊🪨glomp
-┊🪨happy
-┊🪨dance
-┊🪨cringe
-┊🪨cuddle
-┊🪨highfive
-┊🪨shinobu
-┊🪨megumin
-┊🪨handhold
-┊🪨animeslap
-┊🪨animepat
-┊🪨animeneko
-┊🪨animehug
-┊🪨animekiss
-┊🪨animewlp
-┊🪨animespank
-┊🪨shinobu2
-┊🪨megumin2
-┊🪨awoo2
-┊🪨animewall2
-┊🪨searchanime -query-
+┊🪩cry
+┊🪩kill
+┊🪩hug
+┊🪩pat
+┊🪩lick
+┊🪩kiss
+┊🪩bite
+┊🪩yeet
+┊🪩neko
+┊🪩bully
+┊🪩bonk
+┊🪩wink
+┊🪩poke
+┊🪩nom
+┊🪩slap
+┊🪩smile
+┊🪩wave
+┊🪩awoo
+┊🪩blush
+┊🪩smug
+┊🪩glomp
+┊🪩happy
+┊🪩dance
+┊🪩cringe
+┊🪩cuddle
+┊🪩highfive
+┊🪩shinobu
+┊🪩megumin
+┊🪩handhold
+┊🪩animeslap
+┊🪩animepat
+┊🪩animeneko
+┊🪩animehug
+┊🪩animekiss
+┊🪩animewlp
+┊🪩animespank
+┊🪩shinobu2
+┊🪩megumin2
+┊🪩awoo2
+┊🪩animewall2
+┊🪩searchanime -query-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_ꜱᴇᴀʀᴄʜᴍᴇɴᴜ_* 〕
-┊🪨lyrics -query-
-┊🪨linkwa -query-
-┊🪨apk -query-
-┊🪨happymod -query-
-┊🪨apkupro -query-
-┊🪨google -query-
-┊🪨wiki -query-
-┊🪨ytsearch -query-
-┊🪨recipe -query-
-┊🪨playstore -query-
-┊🪨wikimedia -query-
-┊🪨news -query-
-┊🪨news2 -query-
-┊🪨animee -query-
-┊🪨anime -query-
-┊🪨amino -query-
-┊🪨googleimage -query-
-┊🪨apkdone -query-
-┊🪨githubsearch -query->
-┊🪨igsearch -username-
-┊🪨googlenews -query-
-┊🪨gnews -query-
-┊🪨wallpaper -query-
-┊🪨searchgroups -query-
-┊🪨qoutesanime -query-
-┊🪨gmsarena -query-
+┊🪩lyrics -query-
+┊🪩linkwa -query-
+┊🪩apk -query-
+┊🪩happymod -query-
+┊🪩apkupro -query-
+┊🪩google -query-
+┊🪩wiki -query-
+┊🪩ytsearch -query-
+┊🪩recipe -query-
+┊🪩playstore -query-
+┊🪩wikimedia -query-
+┊🪩news -query-
+┊🪩news2 -query-
+┊🪩animee -query-
+┊🪩anime -query-
+┊🪩amino -query-
+┊🪩googleimage -query-
+┊🪩apkdone -query-
+┊🪩githubsearch -query->
+┊🪩igsearch -username-
+┊🪩googlenews -query-
+┊🪩gnews -query-
+┊🪩wallpaper -query-
+┊🪩searchgroups -query-
+┊🪩qoutesanime -query-
+┊🪩gmsarena -query-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 ┌───〔*_◉ᴇᴘʜᴏᴛᴏ-ᴍᴇɴᴜ◉_*〕
-┊🪨3d-wood
-┊🪨angels-wings
-┊🪨snake-text
-┊🪨redhot-metal2
-┊🪨sandsummer-beach
-┊🪨snow-text
-┊🪨water-3d
-┊🪨water-effect
-┊🪨wet-glass
-┊🪨status-mood2
-┊🪨summerysand
+┊🪩3d-wood
+┊🪩angels-wings
+┊🪩snake-text
+┊🪩redhot-metal2
+┊🪩sandsummer-beach
+┊🪩snow-text
+┊🪩water-3d
+┊🪩water-effect
+┊🪩wet-glass
+┊🪩status-mood2
+┊🪩summerysand
 └───────────●
 
 ┌───〔 *_ᴄᴏɴᴠᴇʀᴛᴍᴇɴᴜ_* 〕
-┊🪨toimg -quote sticker-
-┊🪨togif -quote video-
-┊🪨todocument -media-
-┊🪨bass -audio-
-┊🪨blown -audio-
-┊🪨deep -audio-
-┊🪨earape -audio-
-┊🪨fast -audio-
-┊🪨fat -audio-
-┊🪨nightcore -audio-
-┊🪨reverse -audio-
-┊🪨robot -audio-
-┊🪨slow -audio-
-┊🪨smooth -audio-
-┊🪨squirrel -audio-
-┊🪨sticker -media-
-┊🪨smeme -media-
-┊🪨stickermeme -media-
-┊🪨swm -sticker-
+┊🪩toimg -quote sticker-
+┊🪩togif -quote video-
+┊🪩todocument -media-
+┊🪩bass -audio-
+┊🪩blown -audio-
+┊🪩deep -audio-
+┊🪩earape -audio-
+┊🪩fast -audio-
+┊🪩fat -audio-
+┊🪩nightcore -audio-
+┊🪩reverse -audio-
+┊🪩robot -audio-
+┊🪩slow -audio-
+┊🪩smooth -audio-
+┊🪩squirrel -audio-
+┊🪩sticker -media-
+┊🪩smeme -media-
+┊🪩stickermeme -media-
+┊🪩swm -sticker-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 ┌───〔 *_◉ᴅᴀᴛᴀʙᴀꜱᴇᴍᴇɴᴜ◉_* 〕
-┊🪨addmsg -msg-
-┊🪨delmsg -msg-
-┊🪨listmsg -msg-
-┊🪨getmsg -msg-
-┊🪨setcmd -msg-
-┊🪨delcmd -msg-
-┊🪨listcmd -msg-
+┊🪩addmsg -msg-
+┊🪩delmsg -msg-
+┊🪩listmsg -msg-
+┊🪩getmsg -msg-
+┊🪩setcmd -msg-
+┊🪩delcmd -msg-
+┊🪩listcmd -msg-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 ┌───〔 *_◉Photooxyᴍᴇɴᴜ◉_* 〕
-┊🪨silk -text-
-┊🪨3dnature -text-
-┊🪨bevel -text-
-┊🪨birthdaycake -text-
-┊🪨burnpaper -text-
-┊🪨coffee -text-
-┊🪨coffee-heartcup -text-
-┊🪨embroiderytext -text-
-┊🪨flaming -text-
-┊🪨flowertypo -text-
-┊🪨funnycup -text-
-┊🪨fur -text-
-┊🪨gerbang -text-
-┊🪨glowrainbow -text-
-┊🪨gradientavatar -text-
-┊🪨graffititext -text-
-┊🪨harrypotter -text-
-┊🪨lovemessage -text-
-┊🪨neonlight -text-
-┊🪨sweetcandy -text-
-┊🪨summertext -text-
-┊🪨woodheart -text-
-┊🪨yellowroses -text-
-┊🪨wolfmetal -text-
-┊🪨underwaterocean -text-
+┊🪩silk -text-
+┊🪩3dnature -text-
+┊🪩bevel -text-
+┊🪩birthdaycake -text-
+┊🪩burnpaper -text-
+┊🪩coffee -text-
+┊🪩coffee-heartcup -text-
+┊🪩embroiderytext -text-
+┊🪩flaming -text-
+┊🪩flowertypo -text-
+┊🪩funnycup -text-
+┊🪩fur -text-
+┊🪩gerbang -text-
+┊🪩glowrainbow -text-
+┊🪩gradientavatar -text-
+┊🪩graffititext -text-
+┊🪩harrypotter -text-
+┊🪩lovemessage -text-
+┊🪩neonlight -text-
+┊🪩sweetcandy -text-
+┊🪩summertext -text-
+┊🪩woodheart -text-
+┊🪩yellowroses -text-
+┊🪩wolfmetal -text-
+┊🪩underwaterocean -text-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_◉ᴍᴇɴᴜ ʀᴘɢ◉_* 〕
-┊🪨joinrpg
-┊🪨quest 
-┊🪨mining
-┊🪨mancing
-┊🪨luckyday
-┊🪨luckytime
-┊🪨adventure
-┊🪨inventori
+┊🪩joinrpg
+┊🪩quest 
+┊🪩mining
+┊🪩mancing
+┊🪩luckyday
+┊🪩luckytime
+┊🪩adventure
+┊🪩inventori
 └───────────●
 
 ┌───〔 *_◉Fᴀʀᴍ ʀᴘɢ◉_* 〕
-┊🪨killslime
-┊🪨killgoblin
-┊🪨killdevil
-┊🪨killbehemoth
-┊🪨killdemon
-┊🪨killdemonking 
+┊🪩killslime
+┊🪩killgoblin
+┊🪩killdevil
+┊🪩killbehemoth
+┊🪩killdemon
+┊🪩killdemonking 
 └───────────●
 
 ┌───〔 *_◉Tʀᴀᴅᴇ ʀᴘɢ◉_* 〕
-┊🪨sellikan
-┊🪨sellbesi
-┊🪨sellemas
-┊🪨selldiamond
+┊🪩sellikan
+┊🪩sellbesi
+┊🪩sellemas
+┊🪩selldiamond
 └───────────●
 %readmore` 
     let btn = [{
@@ -8038,29 +8038,29 @@ anu = `
 └───────────●
 
 ┌───〔 *_◉ᴏᴡɴᴇʀᴍᴇɴᴜ◉_* 〕
-┊🪨chatbot on/off
-┊🪨setmenu -option-
-┊🪨checkupdate 
-┊🪨updatenow
-┊🪨bc -text-
-┊🪨bcall -text-
-┊🪨bctext -text-
-┊🪨bcvideo -media-
-┊🪨bcaudio -media-
-┊🪨bcimage -media-
-┊🪨bcloc  -text-
-┊🪨bcgc -text-
-┊🪨lockcmd
-┊🪨setstatus -text-
-┊🪨setppbot -owner-
-┊🪨block -owner-
-┊🪨unblock -owner-
-┊🪨join -owner-
-┊🪨leave -owner-
-┊🪨chat -owner-
-┊🪨public
-┊🪨self
-┊🪨grouponly
+┊🪩chatbot on/off
+┊🪩setmenu -option-
+┊🪩checkupdate 
+┊🪩updatenow
+┊🪩bc -text-
+┊🪩bcall -text-
+┊🪩bctext -text-
+┊🪩bcvideo -media-
+┊🪩bcaudio -media-
+┊🪩bcimage -media-
+┊🪩bcloc  -text-
+┊🪩bcgc -text-
+┊🪩lockcmd
+┊🪩setstatus -text-
+┊🪩setppbot -owner-
+┊🪩block -owner-
+┊🪩unblock -owner-
+┊🪩join -owner-
+┊🪩leave -owner-
+┊🪩chat -owner-
+┊🪩public
+┊🪩self
+┊🪩grouponly
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8106,13 +8106,13 @@ anu = `
 └───────────●
 
 ┌───〔 *_◉ᴅᴀᴛᴀʙᴀꜱᴇᴍᴇɴᴜ◉_* 〕
-┊🪨addmsg -msg-
-┊🪨delmsg -msg-
-┊🪨listmsg -msg-
-┊🪨getmsg -msg-
-┊🪨setcmd -msg-
-┊🪨delcmd -msg-
-┊🪨listcmd -msg-
+┊🪩addmsg -msg-
+┊🪩delmsg -msg-
+┊🪩listmsg -msg-
+┊🪩getmsg -msg-
+┊🪩setcmd -msg-
+┊🪩delcmd -msg-
+┊🪩listcmd -msg-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8158,31 +8158,31 @@ case 'photooxymenu': {
 └───────────●
 
 ┌───〔 *_◉Photooxyᴍᴇɴᴜ◉_* 〕
-┊🪨silk -text-
-┊🪨3dnature -text-
-┊🪨bevel -text-
-┊🪨birthdaycake -text-
-┊🪨burnpaper -text-
-┊🪨coffee -text-
-┊🪨coffee-heartcup -text-
-┊🪨embroiderytext -text-
-┊🪨flaming -text-
-┊🪨flowertypo -text-
-┊🪨funnycup -text-
-┊🪨fur -text-
-┊🪨gerbang -text-
-┊🪨glowrainbow -text-
-┊🪨gradientavatar -text-
-┊🪨graffititext -text-
-┊🪨harrypotter -text-
-┊🪨lovemessage -text-
-┊🪨neonlight -text-
-┊🪨sweetcandy -text-
-┊🪨summertext -text-
-┊🪨woodheart -text-
-┊🪨yellowroses -text-
-┊🪨wolfmetal -text-
-┊🪨underwaterocean -text-
+┊🪩silk -text-
+┊🪩3dnature -text-
+┊🪩bevel -text-
+┊🪩birthdaycake -text-
+┊🪩burnpaper -text-
+┊🪩coffee -text-
+┊🪩coffee-heartcup -text-
+┊🪩embroiderytext -text-
+┊🪩flaming -text-
+┊🪩flowertypo -text-
+┊🪩funnycup -text-
+┊🪩fur -text-
+┊🪩gerbang -text-
+┊🪩glowrainbow -text-
+┊🪩gradientavatar -text-
+┊🪩graffititext -text-
+┊🪩harrypotter -text-
+┊🪩lovemessage -text-
+┊🪩neonlight -text-
+┊🪩sweetcandy -text-
+┊🪩summertext -text-
+┊🪩woodheart -text-
+┊🪩yellowroses -text-
+┊🪩wolfmetal -text-
+┊🪩underwaterocean -text-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
   `
   let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8228,48 +8228,48 @@ anu = `
 └───────────●
 
 ┌───〔 *_◉ɢʀᴏᴜᴘᴍᴇɴᴜ◉_* 〕
-┊🪨add -admin-
-┊🪨kick -admin-
-┊🪨welcome on/off -admin-
-┊🪨listpc 
-┊🪨listgc
-┊🪨groupinfo -admin-
-┊🪨antivn -admin-
-┊🪨antiphoto -admin-
-┊🪨antisticker -admin-
-┊🪨antivideo -admin-
-┊🪨antilinkall -admin-
-┊🪨antiinstagram -admin-
-┊🪨antitelegram -admin-
-┊🪨antilink -admin-
-┊🪨antiyt -admin-
-┊🪨antibule -admin-
-┊🪨antitiktok -admin-
-┊🪨antifacebook -admin-
-┊🪨antivirus -admin-
-┊🪨antibadword -admin-
-┊🪨antiwame -admin-
-┊🪨group -options-
-┊🪨mute
-┊🪨groupinfo
-┊🪨truth 
-┊🪨dare
-┊🪨slot
-┊🪨math
-┊🪨vote
-┊🪨devote
-┊🪨cekvote
-┊🪨deletevote
-┊🪨upvote
-┊🪨setsubject -admin-
-┊🪨setdesc -admin-
-┊🪨setppgroup -admin-
-┊🪨tagall -admin-
-┊🪨hidetag -admin-
-┊🪨ephemeral
-┊🪨demote -admin-
-┊🪨promote -admin-
-┊🪨editinfo -admin-
+┊🪩add -admin-
+┊🪩kick -admin-
+┊🪩welcome on/off -admin-
+┊🪩listpc 
+┊🪩listgc
+┊🪩groupinfo -admin-
+┊🪩antivn -admin-
+┊🪩antiphoto -admin-
+┊🪩antisticker -admin-
+┊🪩antivideo -admin-
+┊🪩antilinkall -admin-
+┊🪩antiinstagram -admin-
+┊🪩antitelegram -admin-
+┊🪩antilink -admin-
+┊🪩antiyt -admin-
+┊🪩antibule -admin-
+┊🪩antitiktok -admin-
+┊🪩antifacebook -admin-
+┊🪩antivirus -admin-
+┊🪩antibadword -admin-
+┊🪩antiwame -admin-
+┊🪩group -options-
+┊🪩mute
+┊🪩groupinfo
+┊🪩truth 
+┊🪩dare
+┊🪩slot
+┊🪩math
+┊🪩vote
+┊🪩devote
+┊🪩cekvote
+┊🪩deletevote
+┊🪩upvote
+┊🪩setsubject -admin-
+┊🪩setdesc -admin-
+┊🪩setppgroup -admin-
+┊🪩tagall -admin-
+┊🪩hidetag -admin-
+┊🪩ephemeral
+┊🪩demote -admin-
+┊🪩promote -admin-
+┊🪩editinfo -admin-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8315,62 +8315,62 @@ anu = `
 └───────────●
 
 ┌───〔 *_◉ᴛᴇxᴛᴘʀᴏᴍᴇɴᴜ◉_* 〕
-┊🪨candy -text-
-┊🪨christmas -text-
-┊🪨3dchristmas -text-
-┊🪨sparklechristmas -text-
-┊🪨deepsea -text-
-┊🪨scifi -text-
-┊🪨rainbow2 -text-
-┊🪨waterpipe -text-
-┊🪨spooky -text-
-┊🪨pencil -text-
-┊🪨circuit -text-
-┊🪨discovery -text-
-┊🪨metalic -text-
-┊🪨fiction -text-
-┊🪨demon -text-
-┊🪨transformer -text-
-┊🪨berry -text-
-┊🪨thunder -text-
-┊🪨3dstone2 -text-
-┊🪨neonlight -text-
-┊🪨glitch -text-
-┊🪨harrypotter -text-
-┊🪨brokenglass -text-
-┊🪨papercut -text-
-┊🪨watercolor -text-
-┊🪨multicolor -text-
-┊🪨neondevil -text-
-┊🪨underwater -text-
-┊🪨graffitibike -text-
-┊🪨snow -text-
-┊🪨cloud -text-
-┊🪨honey -text-
-┊🪨ice -text-
-┊🪨fruitjuice -text-
-┊🪨biscuit -text-
-┊🪨wood -text-
-┊🪨chocolate -text-
-┊🪨strawberry -text-
-┊🪨matrix -text-
-┊🪨blood -text-
-┊🪨dropwater -text-
-┊🪨toxic -text-
-┊🪨lava -text-
-┊🪨rock -text-
-┊🪨bloodglass -text-
-┊🪨halloween -text-
-┊🪨darkgold -text-
-┊🪨joker -text-
-┊🪨wicker -text-
-┊🪨firework -text-
-┊🪨skeleton -text-
-┊🪨blackpink -text-
-┊🪨sand -text-
-┊🪨glue -text-
-┊🪨1917 -text-
-┊🪨leaves -text-
+┊🪩candy -text-
+┊🪩christmas -text-
+┊🪩3dchristmas -text-
+┊🪩sparklechristmas -text-
+┊🪩deepsea -text-
+┊🪩scifi -text-
+┊🪩rainbow2 -text-
+┊🪩waterpipe -text-
+┊🪩spooky -text-
+┊🪩pencil -text-
+┊🪩circuit -text-
+┊🪩discovery -text-
+┊🪩metalic -text-
+┊🪩fiction -text-
+┊🪩demon -text-
+┊🪩transformer -text-
+┊🪩berry -text-
+┊🪩thunder -text-
+┊🪩3dstone2 -text-
+┊🪩neonlight -text-
+┊🪩glitch -text-
+┊🪩harrypotter -text-
+┊🪩brokenglass -text-
+┊🪩papercut -text-
+┊🪩watercolor -text-
+┊🪩multicolor -text-
+┊🪩neondevil -text-
+┊🪩underwater -text-
+┊🪩graffitibike -text-
+┊🪩snow -text-
+┊🪩cloud -text-
+┊🪩honey -text-
+┊🪩ice -text-
+┊🪩fruitjuice -text-
+┊🪩biscuit -text-
+┊🪩wood -text-
+┊🪩chocolate -text-
+┊🪩strawberry -text-
+┊🪩matrix -text-
+┊🪩blood -text-
+┊🪩dropwater -text-
+┊🪩toxic -text-
+┊🪩lava -text-
+┊🪩rock -text-
+┊🪩bloodglass -text-
+┊🪩halloween -text-
+┊🪩darkgold -text-
+┊🪩joker -text-
+┊🪩wicker -text-
+┊🪩firework -text-
+┊🪩skeleton -text-
+┊🪩blackpink -text-
+┊🪩sand -text-
+┊🪩glue -text-
+┊🪩1917 -text-
+┊🪩leaves -text-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8416,53 +8416,53 @@ anu =`
 └───────────●
 
 ┌───〔 *_ᴅᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ_* 〕
-┊🪨ytmp3 -link-
-┊🪨ytmp4 -link-
-┊🪨audio  -link-
-┊🪨play -query-
-┊🪨song -query-
-┊🪨play2 -query-
-┊🪨mediafire -link-
-┊🪨fb -link-
-┊🪨fb2 -link-
-┊🪨ytsvideo -query-
-┊🪨getmusic -query-
-┊🪨getvideo -query-
-┊🪨savefrom -query-
-┊🪨pindl -query-
-┊🪨joox -query-
-┊🪨tiktok -link-
-┊🪨tiktok2 -link-
-┊🪨twitter -link-
-┊🪨twitter2 -link-
-┊🪨tiktok3 -link-
-┊🪨tiktok4 -link-
-┊🪨ig -link-
-┊🪨instagramstory -link-
-┊🪨instagramstory2 -link-
-┊🪨igimage -link-
-┊🪨instagramreal -link-
-┊🪨soundcloud -link-
-┊🪨ytshorts -link-
-┊🪨unma -link-
-┊🪨twitteraudio -link-
-┊🪨ytsaudio -query-
-┊🪨ytsvideo -query-
-┊🪨yts2 -query-
-┊🪨fbdl -link-
-┊🪨fbvideo -link-
-┊🪨get -link-
-┊🪨tiktok5 -link-
-┊🪨titktok3 -link-
-┊🪨tiktokmp3 -link-
-┊🪨ttmp3 -link-
-┊🪨ig2 -link-
-┊🪨git -link-
-┊🪨ig3 -link-
-┊🪨igimage -link-
-┊🪨igtv -link-
-┊🪨fbmp3 -link-
-┊🪨ytdl -link-
+┊🪩ytmp3 -link-
+┊🪩ytmp4 -link-
+┊🪩audio  -link-
+┊🪩play -query-
+┊🪩song -query-
+┊🪩play2 -query-
+┊🪩mediafire -link-
+┊🪩fb -link-
+┊🪩fb2 -link-
+┊🪩ytsvideo -query-
+┊🪩getmusic -query-
+┊🪩getvideo -query-
+┊🪩savefrom -query-
+┊🪩pindl -query-
+┊🪩joox -query-
+┊🪩tiktok -link-
+┊🪩tiktok2 -link-
+┊🪩twitter -link-
+┊🪩twitter2 -link-
+┊🪩tiktok3 -link-
+┊🪩tiktok4 -link-
+┊🪩ig -link-
+┊🪩instagramstory -link-
+┊🪩instagramstory2 -link-
+┊🪩igimage -link-
+┊🪩instagramreal -link-
+┊🪩soundcloud -link-
+┊🪩ytshorts -link-
+┊🪩unma -link-
+┊🪩twitteraudio -link-
+┊🪩ytsaudio -query-
+┊🪩ytsvideo -query-
+┊🪩yts2 -query-
+┊🪩fbdl -link-
+┊🪩fbvideo -link-
+┊🪩get -link-
+┊🪩tiktok5 -link-
+┊🪩titktok3 -link-
+┊🪩tiktokmp3 -link-
+┊🪩ttmp3 -link-
+┊🪩ig2 -link-
+┊🪩git -link-
+┊🪩ig3 -link-
+┊🪩igimage -link-
+┊🪩igtv -link-
+┊🪩fbmp3 -link-
+┊🪩ytdl -link-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8509,44 +8509,44 @@ anu =`
 
   
 ┌───〔 *_ᴘʜᴏᴛꜰɪʟᴛᴇʀᴍᴇɴᴜ_* 〕
-┊🪨angie -photo-
-┊🪨aria -photo-
-┊🪨attic -photo-
-┊🪨blackandwhite -photo-
-┊🪨chorme1977 -photo-
-┊🪨constrastbandw -photo-
-┊🪨creamy -photo-
-┊🪨duotone -photo-
-┊🪨eva -photo-
-┊🪨goldenhour -photo-
-┊🪨hana -photo-
-┊🪨lavander -photo-
-┊🪨lemonande -photo-
-┊🪨lightleak -photo-
-┊🪨lisa -photo-
-┊🪨lomo -photo-
-┊🪨milk -photo-
-┊🪨molly -photo-
-┊🪨monochrome -photo-
-┊🪨morning -photo-
-┊🪨movie -photo-
-┊🪨orton -photo-
-┊🪨paretro -photo-
-┊🪨perfectbandw -photo-
-┊🪨plumy -photo-
-┊🪨retrolga -photo-
-┊🪨ruby -photo-
-┊🪨sand -photo-
-┊🪨sapphire -photo-
-┊🪨sepia -photo-
-┊🪨softsepia -photo-
-┊🪨solarize -photo-
-┊🪨sphinx -photo-
-┊🪨venus -photo-
-┊🪨japanese -photo-
-┊🪨hdr -photo-
-┊🪨viewfilter -photo-
-┊🪨warmsunset -photo-
+┊🪩angie -photo-
+┊🪩aria -photo-
+┊🪩attic -photo-
+┊🪩blackandwhite -photo-
+┊🪩chorme1977 -photo-
+┊🪩constrastbandw -photo-
+┊🪩creamy -photo-
+┊🪩duotone -photo-
+┊🪩eva -photo-
+┊🪩goldenhour -photo-
+┊🪩hana -photo-
+┊🪩lavander -photo-
+┊🪩lemonande -photo-
+┊🪩lightleak -photo-
+┊🪩lisa -photo-
+┊🪩lomo -photo-
+┊🪩milk -photo-
+┊🪩molly -photo-
+┊🪩monochrome -photo-
+┊🪩morning -photo-
+┊🪩movie -photo-
+┊🪩orton -photo-
+┊🪩paretro -photo-
+┊🪩perfectbandw -photo-
+┊🪩plumy -photo-
+┊🪩retrolga -photo-
+┊🪩ruby -photo-
+┊🪩sand -photo-
+┊🪩sapphire -photo-
+┊🪩sepia -photo-
+┊🪩softsepia -photo-
+┊🪩solarize -photo-
+┊🪩sphinx -photo-
+┊🪩venus -photo-
+┊🪩japanese -photo-
+┊🪩hdr -photo-
+┊🪩viewfilter -photo-
+┊🪩warmsunset -photo-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8593,26 +8593,26 @@ case 'nsfwmenu':{
   
     
 ┌───〔 *_ɴꜱꜰᴡᴍᴇɴᴜ_* 〕
-┊🪨masturbation
-┊🪨jahy
-┊🪨hentai
-┊🪨glasses
-┊🪨gangbang
-┊🪨foot
-┊🪨femdom
-┊🪨cum
-┊🪨ero
-┊🪨cuckhold
-┊🪨blowjob
-┊🪨bdsm
-┊🪨ahegao
-┊🪨ass
-┊🪨orgy
-┊🪨panties
-┊🪨pussy
-┊🪨yuri
-┊🪨thighs
-┊🪨tentacles
+┊🪩masturbation
+┊🪩jahy
+┊🪩hentai
+┊🪩glasses
+┊🪩gangbang
+┊🪩foot
+┊🪩femdom
+┊🪩cum
+┊🪩ero
+┊🪩cuckhold
+┊🪩blowjob
+┊🪩bdsm
+┊🪩ahegao
+┊🪩ass
+┊🪩orgy
+┊🪩panties
+┊🪩pussy
+┊🪩yuri
+┊🪩thighs
+┊🪩tentacles
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
   `
   let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8659,47 +8659,47 @@ case 'animemenu':{
   
     
 ┌───〔 *_ᴀɴɪᴍᴇᴍᴇɴᴜ_* 〕
-┊🪨cry
-┊🪨kill
-┊🪨hug
-┊🪨pat
-┊🪨lick
-┊🪨kiss
-┊🪨bite
-┊🪨yeet
-┊🪨neko
-┊🪨bully
-┊🪨bonk
-┊🪨wink
-┊🪨poke
-┊🪨nom
-┊🪨slap
-┊🪨smile
-┊🪨wave
-┊🪨awoo
-┊🪨blush
-┊🪨smug
-┊🪨glomp
-┊🪨happy
-┊🪨dance
-┊🪨cringe
-┊🪨cuddle
-┊🪨highfive
-┊🪨shinobu
-┊🪨megumin
-┊🪨handhold
-┊🪨animeslap
-┊🪨animepat
-┊🪨animeneko
-┊🪨animehug
-┊🪨animekiss
-┊🪨animewlp
-┊🪨animespank
-┊🪨shinobu2
-┊🪨megumin2
-┊🪨awoo2
-┊🪨animewall2
-┊🪨searchanime -query-
+┊🪩cry
+┊🪩kill
+┊🪩hug
+┊🪩pat
+┊🪩lick
+┊🪩kiss
+┊🪩bite
+┊🪩yeet
+┊🪩neko
+┊🪩bully
+┊🪩bonk
+┊🪩wink
+┊🪩poke
+┊🪩nom
+┊🪩slap
+┊🪩smile
+┊🪩wave
+┊🪩awoo
+┊🪩blush
+┊🪩smug
+┊🪩glomp
+┊🪩happy
+┊🪩dance
+┊🪩cringe
+┊🪩cuddle
+┊🪩highfive
+┊🪩shinobu
+┊🪩megumin
+┊🪩handhold
+┊🪩animeslap
+┊🪩animepat
+┊🪩animeneko
+┊🪩animehug
+┊🪩animekiss
+┊🪩animewlp
+┊🪩animespank
+┊🪩shinobu2
+┊🪩megumin2
+┊🪩awoo2
+┊🪩animewall2
+┊🪩searchanime -query-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
   `
   let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8746,25 +8746,25 @@ case 'convertmenu': {
   
     
 ┌───〔 *_ᴄᴏɴᴠᴇʀᴛᴍᴇɴᴜ_* 〕
-┊🪨toimg -quote sticker-
-┊🪨togif -quote video-
-┊🪨todocument -media-
-┊🪨bass -audio-
-┊🪨blown -audio-
-┊🪨deep -audio-
-┊🪨earape -audio-
-┊🪨fast -audio-
-┊🪨fat -audio-
-┊🪨nightcore -audio-
-┊🪨reverse -audio-
-┊🪨robot -audio-
-┊🪨slow -audio-
-┊🪨smooth -audio-
-┊🪨squirrel -audio-
-┊🪨sticker -media-
-┊🪨smeme -media-
-┊🪨stickermeme -media-
-┊🪨swm -sticker-
+┊🪩toimg -quote sticker-
+┊🪩togif -quote video-
+┊🪩todocument -media-
+┊🪩bass -audio-
+┊🪩blown -audio-
+┊🪩deep -audio-
+┊🪩earape -audio-
+┊🪩fast -audio-
+┊🪩fat -audio-
+┊🪩nightcore -audio-
+┊🪩reverse -audio-
+┊🪩robot -audio-
+┊🪩slow -audio-
+┊🪩smooth -audio-
+┊🪩squirrel -audio-
+┊🪩sticker -media-
+┊🪩smeme -media-
+┊🪩stickermeme -media-
+┊🪩swm -sticker-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
   `
   let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8812,20 +8812,20 @@ case 'toolmenu': {
   
     
 ┌───〔 *_ᴛᴏᴏʟᴍᴇɴᴜ_* 〕
-┊🪨ip ->-
-┊🪨ipdomain -domain name-
-┊🪨codecolor -text-
-┊🪨hackermaker -pic url-
-┊🪨checknumber -number-
-┊🪨veriphone -number-
-┊🪨weather -place-
-┊🪨attp -text-
-┊🪨ssweb-hp -url-
-┊🪨shortlink -url-
-┊🪨ssweb-pc -url-
-┊🪨shortlinkcuttly -url-
-┊🪨shortlinkisgd -url-
-┊🪨brainly -query-
+┊🪩ip ->-
+┊🪩ipdomain -domain name-
+┊🪩codecolor -text-
+┊🪩hackermaker -pic url-
+┊🪩checknumber -number-
+┊🪩veriphone -number-
+┊🪩weather -place-
+┊🪩attp -text-
+┊🪩ssweb-hp -url-
+┊🪩shortlink -url-
+┊🪩ssweb-pc -url-
+┊🪩shortlinkcuttly -url-
+┊🪩shortlinkisgd -url-
+┊🪩brainly -query-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
   `
   let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8872,32 +8872,32 @@ case 'searchmenu':{
 └───────────●
 
 ┌───〔 *_ꜱᴇᴀʀᴄʜᴍᴇɴᴜ_* 〕
-┊🪨lyrics -query-
-┊🪨linkwa -query-
-┊🪨apk -query-
-┊🪨happymod -query-
-┊🪨apkupro -query-
-┊🪨google -query-
-┊🪨wiki -query-
-┊🪨ytsearch -query-
-┊🪨recipe -query-
-┊🪨playstore -query-
-┊🪨wikimedia -query-
-┊🪨news -query-
-┊🪨news2 -query-
-┊🪨animee -query-
-┊🪨anime -query-
-┊🪨amino -query-
-┊🪨googleimage -query-
-┊🪨apkdone -query-
-┊🪨githubsearch -query->
-┊🪨igsearch -username-
-┊🪨googlenews -query-
-┊🪨gnews -query-
-┊🪨wallpaper -query-
-┊🪨searchgroups -query-
-┊🪨qoutesanime -query-
-┊🪨gmsarena -query-
+┊🪩lyrics -query-
+┊🪩linkwa -query-
+┊🪩apk -query-
+┊🪩happymod -query-
+┊🪩apkupro -query-
+┊🪩google -query-
+┊🪩wiki -query-
+┊🪩ytsearch -query-
+┊🪩recipe -query-
+┊🪩playstore -query-
+┊🪩wikimedia -query-
+┊🪩news -query-
+┊🪩news2 -query-
+┊🪩animee -query-
+┊🪩anime -query-
+┊🪩amino -query-
+┊🪩googleimage -query-
+┊🪩apkdone -query-
+┊🪩githubsearch -query->
+┊🪩igsearch -username-
+┊🪩googlenews -query-
+┊🪩gnews -query-
+┊🪩wallpaper -query-
+┊🪩searchgroups -query-
+┊🪩qoutesanime -query-
+┊🪩gmsarena -query-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
   `
@@ -8945,17 +8945,17 @@ anu =`
 └───────────●
 
 ┌───〔*_◉ᴇᴘʜᴏᴛᴏ-ᴍᴇɴᴜ◉_*〕
-┊🪨3d-wood
-┊🪨angels-wings
-┊🪨snake-text
-┊🪨redhot-metal2
-┊🪨sandsummer-beach
-┊🪨snow-text
-┊🪨water-3d
-┊🪨water-effect
-┊🪨wet-glass
-┊🪨status-mood2
-┊🪨summerysand
+┊🪩3d-wood
+┊🪩angels-wings
+┊🪩snake-text
+┊🪩redhot-metal2
+┊🪩sandsummer-beach
+┊🪩snow-text
+┊🪩water-3d
+┊🪩water-effect
+┊🪩wet-glass
+┊🪩status-mood2
+┊🪩summerysand
 └───────────●
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
