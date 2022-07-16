@@ -97,8 +97,8 @@ umpanawal: 5,
 potionawal: 1
 }
 global.thumb = fs.readFileSync('./Zimbot/drips.jpg')
-global.visoka = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
-global.vid = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
+global.visoka = { url: 'https://a.uguu.se/slUaPVAE.mp4' }
+global.vid = { url: 'https://a.uguu.se/slUaPVAE.mp4' }
 
 //—————「 Set Random Image Menu 」—————//
 
