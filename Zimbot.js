@@ -195,7 +195,7 @@ mediaUrl: `https://githb.com/DARK-ASIF`,
 description: 'ASIF KHAN',
 previewType: "PHOTO",
 thumbnail: fs.readFileSync('./drips.jpg'),
-sourceUrl: "https://ʙᴏᴛ ɢʀᴏᴜᴘ.com/FahriAdison",
+sourceUrl: "https://github.com/FahriAdison",
 detectLinks: false,
     }}
 
@@ -2285,7 +2285,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   reply('*There are still unfinished match*')
   throw false
    }
-   let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/BochilTeam/database/master/games/family100.json')
+   let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/family100.json')
    let random = anu[Math.floor(Math.random() * anu.length)]
    let hasil = `*Answer the following questions :*\n${random.soal}\n\nThere is *${random.jawaban.length}* Answer ${random.jawaban.find(v => v.includes(' ')) ? `(some answers have spaces)` : ''}`.trim()
    _family100['family100'+m.chat] = {
@@ -2307,7 +2307,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
    if (!text) throw `Example : ${prefix + command} lagu\n\nOption : \n1. music\n2. picture\n3. word\n4. sentence\n5. lyrics\n6.rice cake`
    if (args[0] === "lagu") {
   if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match *"
-  let anu = await fetchJson('https://fatiharridho.ʙᴏᴛ ɢʀᴏᴜᴘ.io/tebaklagu.json')
+  let anu = await fetchJson('https://fatiharridho.github.io/tebaklagu.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   let msg = await ZimBotInc.sendMessage(m.chat, { audio: { url: result.link_song }, mimetype: 'audio/mpeg' }, { quoted: m })
   ZimBotInc.sendText(m.chat, `The song is a song from?\n\nArtist : ${result.artist}\nTime : 60s`, msg).then(() => {
@@ -2322,7 +2322,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   }
    } else if (args[0] === 'gambar') {
   if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/BochilTeam/database/master/games/tebakgambar.json')
+  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakgambar.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendImage(m.chat, result.img, `Please answer the questions above\n\nDescription : ${result.deskripsi}\nWaktu : 60s`, m).then(() => {
   tebakgambar[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2336,7 +2336,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   }
    } else if (args[0] === 'kata') {
   if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/BochilTeam/database/master/games/tebakkata.json')
+  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkata.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal}\nTime : 60s`, m).then(() => {
   tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2350,7 +2350,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   }
    } else if (args[0] === 'kalimat') {
   if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/BochilTeam/database/master/games/tebakkalimat.json')
+  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkalimat.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal}\nTime : 60s`, m).then(() => {
   tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2364,7 +2364,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   }
    } else if (args[0] === 'lirik') {
   if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/BochilTeam/database/master/games/tebaklirik.json')
+  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebaklirik.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendText(m.chat, `These are the lyrics of the song? : *${result.soal}*?\nTime : 60s`, m).then(() => {
   tebaklirik[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2378,7 +2378,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   }
    } else if (args[0] === 'lontong') {
   if (caklontong.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/BochilTeam/database/master/games/caklontong.json')
+  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/caklontong.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendText(m.chat, `*Answer the following questions :*\n${result.soal}*\nTime : 60s`, m).then(() => {
   caklontong[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -3292,12 +3292,12 @@ break
  break
  case 'git': case 'gitclone':
 reply(mess.wait)
- let regex1 = /(?:https|git)(?::\/\/|@)ʙᴏᴛ ɢʀᴏᴜᴘ\.com[\/:]([^\/:]+)\/(.+)/i
- if(!args[0]) throw 'link ʙᴏᴛ ɢʀᴏᴜᴘ  EXAMPLE: https://ʙᴏᴛ ɢʀᴏᴜᴘ.com/DARK-ASIF/Aqua-Bot'
+ let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
+ if(!args[0]) throw 'link github  EXAMPLE: https://github.com/DARK-ASIF/Aqua-Bot'
 if (!regex1.test(args[0])) throw 'link!'
    let [, user, repo] = args[0].match(regex1) || []
     repo = repo.replace(/.git$/, '')
-    let url = `https://api.ʙᴏᴛ ɢʀᴏᴜᴘ.com/repos/${user}/${repo}/zipball`
+    let url = `https://api.github.com/repos/${user}/${repo}/zipball`
     let filename = (await fetch(url, {method: 'HEAD'})).headers.get('content-disposition').match(/attachment; filename=(.*)/)[1]
     // 'attachment; filenameq=ZidniGanz.zip'
     reply(`*Please wait, sending repository..*`)
@@ -3331,10 +3331,10 @@ if (!regex1.test(args[0])) throw 'link!'
         sourceUrl: `https://wa.me/+923474187615` }}}, {quoted: m})
 break
 case 'ghsearch': 
-       case 'ʙᴏᴛ ɢʀᴏᴜᴘsearch': 
-       case 'searchʙᴏᴛ ɢʀᴏᴜᴘ':
+       case 'githubsearch': 
+       case 'searchgithub':
              if (!q) return reply('*What are you looking for?*')
-             let pomi = await fetch('https://api.ʙᴏᴛ ɢʀᴏᴜᴘ.com/search/repositories?q='+q)
+             let pomi = await fetch('https://api.github.com/search/repositories?q='+q)
             let dhumi = await pomi.json()
              if (pomi.status !== 200) throw dhumi
              str = dhumi.items.map((repo, index) => {
@@ -3370,7 +3370,7 @@ break
   let btn = [{
  urlButton: {
   displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-  url: 'https://wa.me+687820687'
+  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
  }
   }, {
  callButton: {
@@ -3648,7 +3648,7 @@ let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader')
    if (!text) throw `Example : ${prefix + command} story wa anime`
    let yts = require("yt-search")
    let search = await yts(text)
-   let teks = 'ʙᴏᴛ ɢʀᴏᴜᴘ Search\n\n Result From '+text+'\n\n'
+   let teks = 'github Search\n\n Result From '+text+'\n\n'
    let no = 1
    for (let i of search.all) {
   teks += `🎐No: ${no++}\n💮𝗧𝗬𝗣𝗘 : ${i.type}\n🔳𝗩𝗜𝗗𝗘𝗢 𝗜𝗗: ${i.videoId}\n🔴𝗧𝗜𝗧𝗟𝗘 : ${i.title}\n🎪𝗩𝗜𝗘𝗪𝗦 : ${i.views}\n🎬𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡 : ${i.timestamp}\n📡𝗨𝗣𝗟𝗢𝗔𝗗 𝗔𝗧 : ${i.ago}\n🎰𝗔𝗨𝗧𝗛𝗢𝗥 : ${i.author.name}\n📌𝗨𝗥𝗟 : ${i.url}\n\n─────────────────\n\n`
@@ -3804,7 +3804,7 @@ replay(mess.wait)
  break
     case 'couplepp': case 'ppcouple': {
    replay(mess.wait)
-   let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/iamriz7/kopel_/main/kopel.json')
+   let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
    let random = anu[Math.floor(Math.random() * anu.length)]
    ZimBotInc.sendMessage(m.chat, { image: { url: random.male }, caption: `Couple Male` }, { quoted: m })
    ZimBotInc.sendMessage(m.chat, { image: { url: random.female }, caption: `*Couple Female*` }, { quoted: m })
@@ -4177,7 +4177,7 @@ url: `${drips2.videos[0].url}`
 }, {
 urlButton: {
 displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, 
-url: `https://ʙᴏᴛ ɢʀᴏᴜᴘ.com/DARK-ASIF`
+url: `https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL`
 }
 }, {
 quickReplyButton: {
@@ -4239,7 +4239,7 @@ url: `${anu.url}`
 }, {
 urlButton: {
 displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, 
-url: `https://ʙᴏᴛ ɢʀᴏᴜᴘ.com/DARK-ASIF`
+url: `https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL`
 }
 }, {
 quickReplyButton: {
@@ -4735,7 +4735,7 @@ hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL''
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }, {
 urlButton: {
@@ -5231,7 +5231,7 @@ ZimBotInc.sendMessage(m.chat, { video: { url: anu.medias[0].url }, jpegThumbnail
  break
  case 'cuttly': {
   //if 
-if (!text) throw `Example : ${prefix + command} https://ʙᴏᴛ ɢʀᴏᴜᴘ.com`
+if (!text) throw `Example : ${prefix + command} https://github.com`
 anu = await fetchJson(`https://xteam.xyz/shorturl/cuttly?url=${text}&nama=alyabot&APIKEY=${setting.riy}`)
 m.reply(`${anu.result}`)
 }
@@ -5418,6 +5418,8 @@ displayText: 'MENU',
 id: 'menu'
 }
 }]
+
+ZimBotInc.sendMessage(m.chat, { react: { text: `${global.reactmoji}`, key: m.key }})
 let media = await ZimBotInc.downloadAndSaveMediaMessage(quoted)
 let buffer = fs.readFileSync(media)
 if (/webp/.test(mime)) {
@@ -7007,7 +7009,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL''
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }, {
 urlButton: {
@@ -7634,7 +7636,7 @@ anu = `
 ┊🍓⛱️amino -query-
 ┊🍓⛱️googleimage -query-
 ┊🍓⛱️apkdone -query-
-┊🍓⛱️ʙᴏᴛ ɢʀᴏᴜᴘsearch -query->
+┊🍓⛱️githubsearch -query->
 ┊🍓⛱️igsearch -username-
 ┊🍓⛱️googlenews -query-
 ┊🍓⛱️gnews -query-
@@ -7749,7 +7751,7 @@ anu = `
     let btn = [{
         urlButton: {
             displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-            url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL''
+            url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
         }
     }, {
         urlButton: {
@@ -7784,7 +7786,7 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL''
+    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
     }
     }, {
     urlButton: {
@@ -7822,7 +7824,7 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL''
+    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
     }
     }, {
     urlButton: {
@@ -7860,7 +7862,7 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL''
+    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
     }
     }, {
     urlButton: {
@@ -7895,7 +7897,7 @@ anu = `
         }
         
     var buffer = await getBuffer(ppuser)
-    const buttonsDefault = [{ urlButton: { displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, url : `https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'` } }, { urlButton: { displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, url : `https://ʙᴏᴛ ɢʀᴏᴜᴘ.com/DARK-ASIF` } },
+    const buttonsDefault = [{ urlButton: { displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, url : `https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'` } }, { urlButton: { displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, url : `https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL` } },
     {					
       quickReplyButton: {
       displayText: 'SPEED',
@@ -8073,7 +8075,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }, {
 urlButton: {
@@ -8125,7 +8127,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }, {
 urlButton: {
@@ -8195,7 +8197,7 @@ case 'photooxymenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
   }
   }, {
   urlButton: {
@@ -8282,7 +8284,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }, {
 urlButton: {
@@ -8383,7 +8385,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }, {
 urlButton: {
@@ -8475,7 +8477,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }, {
 urlButton: {
@@ -8559,7 +8561,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }, {
 urlButton: {
@@ -8625,7 +8627,7 @@ case 'nsfwmenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
   }
   }, {
   urlButton: {
@@ -8712,7 +8714,7 @@ case 'animemenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
   }
   }, {
   urlButton: {
@@ -8777,7 +8779,7 @@ case 'convertmenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
   }
   }, {
   urlButton: {
@@ -8838,7 +8840,7 @@ case 'toolmenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
   }
   }, {
   urlButton: {
@@ -8890,7 +8892,7 @@ case 'searchmenu':{
 ┊🍓⛱️amino -query-
 ┊🍓⛱️googleimage -query-
 ┊🍓⛱️apkdone -query-
-┊🍓⛱️ʙᴏᴛ ɢʀᴏᴜᴘsearch -query->
+┊🍓⛱️githubsearch -query->
 ┊🍓⛱️igsearch -username-
 ┊🍓⛱️googlenews -query-
 ┊🍓⛱️gnews -query-
@@ -8911,7 +8913,7 @@ case 'searchmenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
   }
   }, {
   urlButton: {
@@ -8968,7 +8970,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }, {
 urlButton: {
