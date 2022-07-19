@@ -195,7 +195,7 @@ mediaUrl: `https://githb.com/DARK-ASIF`,
 description: 'ASIF KHAN',
 previewType: "PHOTO",
 thumbnail: fs.readFileSync('./drips.jpg'),
-sourceUrl: "https://github.com/FahriAdison",
+sourceUrl: "https://ʙᴏᴛ ɢʀᴏᴜᴘ.com/FahriAdison",
 detectLinks: false,
     }}
 
@@ -2209,7 +2209,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
  case 'sc': case 'script': case 'donate': case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 
   teks = `
-  *AREO BOT*\n\n*OWNER:* https://wa.me/+923474187615\n*GITHUB:* https://github.com/DARK-ASIF\n\n*Group:* no group sorry 😔`
+  *AREO BOT*\n\n*OWNER:* https://wa.me/+923474187615\n*ʙᴏᴛ ɢʀᴏᴜᴘ:* https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL\n\n*Group:* no group sorry 😔`
   let buttons = [
   {buttonId: `rpgmenu`, buttonText: {displayText: 'RPG'}, type: 1}
   ]
@@ -2285,7 +2285,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   reply('*There are still unfinished match*')
   throw false
    }
-   let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/family100.json')
+   let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/BochilTeam/database/master/games/family100.json')
    let random = anu[Math.floor(Math.random() * anu.length)]
    let hasil = `*Answer the following questions :*\n${random.soal}\n\nThere is *${random.jawaban.length}* Answer ${random.jawaban.find(v => v.includes(' ')) ? `(some answers have spaces)` : ''}`.trim()
    _family100['family100'+m.chat] = {
@@ -2307,7 +2307,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
    if (!text) throw `Example : ${prefix + command} lagu\n\nOption : \n1. music\n2. picture\n3. word\n4. sentence\n5. lyrics\n6.rice cake`
    if (args[0] === "lagu") {
   if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match *"
-  let anu = await fetchJson('https://fatiharridho.github.io/tebaklagu.json')
+  let anu = await fetchJson('https://fatiharridho.ʙᴏᴛ ɢʀᴏᴜᴘ.io/tebaklagu.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   let msg = await ZimBotInc.sendMessage(m.chat, { audio: { url: result.link_song }, mimetype: 'audio/mpeg' }, { quoted: m })
   ZimBotInc.sendText(m.chat, `The song is a song from?\n\nArtist : ${result.artist}\nTime : 60s`, msg).then(() => {
@@ -2322,7 +2322,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   }
    } else if (args[0] === 'gambar') {
   if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakgambar.json')
+  let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/BochilTeam/database/master/games/tebakgambar.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendImage(m.chat, result.img, `Please answer the questions above\n\nDescription : ${result.deskripsi}\nWaktu : 60s`, m).then(() => {
   tebakgambar[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2336,7 +2336,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   }
    } else if (args[0] === 'kata') {
   if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkata.json')
+  let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/BochilTeam/database/master/games/tebakkata.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal}\nTime : 60s`, m).then(() => {
   tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2350,7 +2350,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   }
    } else if (args[0] === 'kalimat') {
   if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkalimat.json')
+  let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/BochilTeam/database/master/games/tebakkalimat.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal}\nTime : 60s`, m).then(() => {
   tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2364,7 +2364,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   }
    } else if (args[0] === 'lirik') {
   if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebaklirik.json')
+  let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/BochilTeam/database/master/games/tebaklirik.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendText(m.chat, `These are the lyrics of the song? : *${result.soal}*?\nTime : 60s`, m).then(() => {
   tebaklirik[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2378,7 +2378,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   }
    } else if (args[0] === 'lontong') {
   if (caklontong.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/caklontong.json')
+  let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/BochilTeam/database/master/games/caklontong.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendText(m.chat, `*Answer the following questions :*\n${result.soal}*\nTime : 60s`, m).then(() => {
   caklontong[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -3292,12 +3292,12 @@ break
  break
  case 'git': case 'gitclone':
 reply(mess.wait)
- let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
- if(!args[0]) throw 'link github  EXAMPLE: https://github.com/DARK-ASIF/Aqua-Bot'
+ let regex1 = /(?:https|git)(?::\/\/|@)ʙᴏᴛ ɢʀᴏᴜᴘ\.com[\/:]([^\/:]+)\/(.+)/i
+ if(!args[0]) throw 'link ʙᴏᴛ ɢʀᴏᴜᴘ  EXAMPLE: https://ʙᴏᴛ ɢʀᴏᴜᴘ.com/DARK-ASIF/Aqua-Bot'
 if (!regex1.test(args[0])) throw 'link!'
    let [, user, repo] = args[0].match(regex1) || []
     repo = repo.replace(/.git$/, '')
-    let url = `https://api.github.com/repos/${user}/${repo}/zipball`
+    let url = `https://api.ʙᴏᴛ ɢʀᴏᴜᴘ.com/repos/${user}/${repo}/zipball`
     let filename = (await fetch(url, {method: 'HEAD'})).headers.get('content-disposition').match(/attachment; filename=(.*)/)[1]
     // 'attachment; filenameq=ZidniGanz.zip'
     reply(`*Please wait, sending repository..*`)
@@ -3331,10 +3331,10 @@ if (!regex1.test(args[0])) throw 'link!'
         sourceUrl: `https://wa.me/+923474187615` }}}, {quoted: m})
 break
 case 'ghsearch': 
-       case 'githubsearch': 
-       case 'searchgithub':
+       case 'ʙᴏᴛ ɢʀᴏᴜᴘsearch': 
+       case 'searchʙᴏᴛ ɢʀᴏᴜᴘ':
              if (!q) return reply('*What are you looking for?*')
-             let pomi = await fetch('https://api.github.com/search/repositories?q='+q)
+             let pomi = await fetch('https://api.ʙᴏᴛ ɢʀᴏᴜᴘ.com/search/repositories?q='+q)
             let dhumi = await pomi.json()
              if (pomi.status !== 200) throw dhumi
              str = dhumi.items.map((repo, index) => {
@@ -3369,7 +3369,7 @@ break
   await sleep(1500)
   let btn = [{
  urlButton: {
-  displayText: 'HELPER',
+  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
   url: 'https://wa.me+687820687'
  }
   }, {
@@ -3409,8 +3409,8 @@ for (let yoi of anu) {
     await sleep(1500)
     let btn = [{
  urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/DARK-ASIF'
+  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
  }
   }, {
  quickReplyButton: {
@@ -3648,7 +3648,7 @@ let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader')
    if (!text) throw `Example : ${prefix + command} story wa anime`
    let yts = require("yt-search")
    let search = await yts(text)
-   let teks = 'HELPER Search\n\n Result From '+text+'\n\n'
+   let teks = 'ʙᴏᴛ ɢʀᴏᴜᴘ Search\n\n Result From '+text+'\n\n'
    let no = 1
    for (let i of search.all) {
   teks += `🎐No: ${no++}\n💮𝗧𝗬𝗣𝗘 : ${i.type}\n🔳𝗩𝗜𝗗𝗘𝗢 𝗜𝗗: ${i.videoId}\n🔴𝗧𝗜𝗧𝗟𝗘 : ${i.title}\n🎪𝗩𝗜𝗘𝗪𝗦 : ${i.views}\n🎬𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡 : ${i.timestamp}\n📡𝗨𝗣𝗟𝗢𝗔𝗗 𝗔𝗧 : ${i.ago}\n🎰𝗔𝗨𝗧𝗛𝗢𝗥 : ${i.author.name}\n📌𝗨𝗥𝗟 : ${i.url}\n\n─────────────────\n\n`
@@ -3804,7 +3804,7 @@ replay(mess.wait)
  break
     case 'couplepp': case 'ppcouple': {
    replay(mess.wait)
-   let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
+   let anu = await fetchJson('https://raw.ʙᴏᴛ ɢʀᴏᴜᴘusercontent.com/iamriz7/kopel_/main/kopel.json')
    let random = anu[Math.floor(Math.random() * anu.length)]
    ZimBotInc.sendMessage(m.chat, { image: { url: random.male }, caption: `Couple Male` }, { quoted: m })
    ZimBotInc.sendMessage(m.chat, { image: { url: random.female }, caption: `*Couple Female*` }, { quoted: m })
@@ -4176,8 +4176,8 @@ url: `${drips2.videos[0].url}`
 }
 }, {
 urlButton: {
-displayText: `GITHUB`, 
-url: `https://github.com/DARK-ASIF`
+displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, 
+url: `https://ʙᴏᴛ ɢʀᴏᴜᴘ.com/DARK-ASIF`
 }
 }, {
 quickReplyButton: {
@@ -4238,8 +4238,8 @@ url: `${anu.url}`
 }
 }, {
 urlButton: {
-displayText: `GITHUB`, 
-url: `https://github.com/DARK-ASIF`
+displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, 
+url: `https://ʙᴏᴛ ɢʀᴏᴜᴘ.com/DARK-ASIF`
 }
 }, {
 quickReplyButton: {
@@ -4734,13 +4734,13 @@ hydratedContentText: listmn,
 hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'HELPER',
-url: 'https://wa.me/+687820687'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL''
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/DARK-ASIF'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }, {
 quickReplyButton: {
@@ -4833,8 +4833,8 @@ url: `${text}`
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/DARK-ASIF'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }, {
 quickReplyButton: {
@@ -5231,7 +5231,7 @@ ZimBotInc.sendMessage(m.chat, { video: { url: anu.medias[0].url }, jpegThumbnail
  break
  case 'cuttly': {
   //if 
-if (!text) throw `Example : ${prefix + command} https://github.com`
+if (!text) throw `Example : ${prefix + command} https://ʙᴏᴛ ɢʀᴏᴜᴘ.com`
 anu = await fetchJson(`https://xteam.xyz/shorturl/cuttly?url=${text}&nama=alyabot&APIKEY=${setting.riy}`)
 m.reply(`${anu.result}`)
 }
@@ -5356,8 +5356,8 @@ for (let i of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/DARK-ASIF'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5375,8 +5375,8 @@ for (let yoi of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/DARK-ASIF'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5408,8 +5408,8 @@ for (let i of anu) {
 await sleep(1500)
 let butoon = [{
 urlButton: {
-displayText: `GITHUB`,
-url: 'https://github.com/DARK-ASIF'
+displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`,
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 },
 {
@@ -7006,13 +7006,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'HELPER',
-url: 'https://wa.me/+687820687'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL''
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/DARK-ASIF'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }, {
 quickReplyButton: {
@@ -7291,470 +7291,470 @@ anu = `
 └───────────●
 
 ┌───〔 *_◉ᴍᴇɴᴜ◉_* 〕
-┊🪩downloadmenu
-┊🪩groupmenu
-┊🪩animemenu
-┊🪩searchmenu
-┊🪩ownermenu
-┊🪩databasemenu
-┊🪩textpromenu
-┊🪩ephotomenu
-┊🪩toolsmenu
-┊🪩convertmenu
+┊🍓⛱️downloadmenu
+┊🍓⛱️groupmenu
+┊🍓⛱️animemenu
+┊🍓⛱️searchmenu
+┊🍓⛱️ownermenu
+┊🍓⛱️databasemenu
+┊🍓⛱️textpromenu
+┊🍓⛱️ephotomenu
+┊🍓⛱️toolsmenu
+┊🍓⛱️convertmenu
 └───────────●
 
 ┌───〔 *_ᴛᴏᴏʟᴍᴇɴᴜ_* 〕
-┊🪩ip ->-
-┊🪩ipdomain -domain name-
-┊🪩codecolor -text-
-┊🪩hackermaker -pic url-
-┊🪩checknumber -number-
-┊🪩veriphone -number-
-┊🪩weather -place-
-┊🪩attp -text-
-┊🪩ssweb-hp -url-
-┊🪩shortlink -url-
-┊🪩ssweb-pc -url-
-┊🪩shortlinkcuttly -url-
-┊🪩shortlinkisgd -url-
-┊🪩brainly -query-
+┊🍓⛱️ip ->-
+┊🍓⛱️ipdomain -domain name-
+┊🍓⛱️codecolor -text-
+┊🍓⛱️hackermaker -pic url-
+┊🍓⛱️checknumber -number-
+┊🍓⛱️veriphone -number-
+┊🍓⛱️weather -place-
+┊🍓⛱️attp -text-
+┊🍓⛱️ssweb-hp -url-
+┊🍓⛱️shortlink -url-
+┊🍓⛱️ssweb-pc -url-
+┊🍓⛱️shortlinkcuttly -url-
+┊🍓⛱️shortlinkisgd -url-
+┊🍓⛱️brainly -query-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_◉ᴏᴡɴᴇʀᴍᴇɴᴜ◉_* 〕
-┊🪩chatbot on/off
-┊🪩setmenu -option-
-┊🪩checkupdate 
-┊🪩updatenow
-┊🪩bc -text-
-┊🪩bcall -text-
-┊🪩bctext -text-
-┊🪩bcvideo -media-
-┊🪩bcaudio -media-
-┊🪩bcimage -media-
-┊🪩bcloc  -text-
-┊🪩bcgc -text-
-┊🪩lockcmd
-┊🪩setstatus -text-
-┊🪩setppbot -owner-
-┊🪩block -owner-
-┊🪩unblock -owner-
-┊🪩join -owner-
-┊🪩leave -owner-
-┊🪩chat -owner-
-┊🪩public
-┊🪩self
-┊🪩grouponly
+┊🍓⛱️chatbot on/off
+┊🍓⛱️setmenu -option-
+┊🍓⛱️checkupdate 
+┊🍓⛱️updatenow
+┊🍓⛱️bc -text-
+┊🍓⛱️bcall -text-
+┊🍓⛱️bctext -text-
+┊🍓⛱️bcvideo -media-
+┊🍓⛱️bcaudio -media-
+┊🍓⛱️bcimage -media-
+┊🍓⛱️bcloc  -text-
+┊🍓⛱️bcgc -text-
+┊🍓⛱️lockcmd
+┊🍓⛱️setstatus -text-
+┊🍓⛱️setppbot -owner-
+┊🍓⛱️block -owner-
+┊🍓⛱️unblock -owner-
+┊🍓⛱️join -owner-
+┊🍓⛱️leave -owner-
+┊🍓⛱️chat -owner-
+┊🍓⛱️public
+┊🍓⛱️self
+┊🍓⛱️grouponly
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_◉ɢʀᴏᴜᴘᴍᴇɴᴜ◉_* 〕
-┊🪩add -admin-
-┊🪩kick -admin-
-┊🪩welcome on/off -admin-
-┊🪩listpc 
-┊🪩listgc
-┊🪩groupinfo -admin-
-┊🪩antivn -admin-
-┊🪩antiphoto -admin-
-┊🪩antisticker -admin-
-┊🪩antivideo -admin-
-┊🪩antilinkall -admin-
-┊🪩antiinstagram -admin-
-┊🪩antitelegram -admin-
-┊🪩antilink -admin-
-┊🪩antiyt -admin-
-┊🪩antibule -admin-
-┊🪩antitiktok -admin-
-┊🪩antifacebook -admin-
-┊🪩antivirus -admin-
-┊🪩antibadword -admin-
-┊🪩antiwame -admin-
-┊🪩group -options-
-┊🪩mute
-┊🪩groupinfo
-┊🪩truth 
-┊🪩dare
-┊🪩slot
-┊🪩math
-┊🪩vote
-┊🪩devote
-┊🪩cekvote
-┊🪩deletevote
-┊🪩upvote
-┊🪩setsubject -admin-
-┊🪩setdesc -admin-
-┊🪩setppgroup -admin-
-┊🪩tagall -admin-
-┊🪩hidetag -admin-
-┊🪩ephemeral
-┊🪩demote -admin-
-┊🪩promote -admin-
-┊🪩editinfo -admin-
+┊🍓⛱️add -admin-
+┊🍓⛱️kick -admin-
+┊🍓⛱️welcome on/off -admin-
+┊🍓⛱️listpc 
+┊🍓⛱️listgc
+┊🍓⛱️groupinfo -admin-
+┊🍓⛱️antivn -admin-
+┊🍓⛱️antiphoto -admin-
+┊🍓⛱️antisticker -admin-
+┊🍓⛱️antivideo -admin-
+┊🍓⛱️antilinkall -admin-
+┊🍓⛱️antiinstagram -admin-
+┊🍓⛱️antitelegram -admin-
+┊🍓⛱️antilink -admin-
+┊🍓⛱️antiyt -admin-
+┊🍓⛱️antibule -admin-
+┊🍓⛱️antitiktok -admin-
+┊🍓⛱️antifacebook -admin-
+┊🍓⛱️antivirus -admin-
+┊🍓⛱️antibadword -admin-
+┊🍓⛱️antiwame -admin-
+┊🍓⛱️group -options-
+┊🍓⛱️mute
+┊🍓⛱️groupinfo
+┊🍓⛱️truth 
+┊🍓⛱️dare
+┊🍓⛱️slot
+┊🍓⛱️math
+┊🍓⛱️vote
+┊🍓⛱️devote
+┊🍓⛱️cekvote
+┊🍓⛱️deletevote
+┊🍓⛱️upvote
+┊🍓⛱️setsubject -admin-
+┊🍓⛱️setdesc -admin-
+┊🍓⛱️setppgroup -admin-
+┊🍓⛱️tagall -admin-
+┊🍓⛱️hidetag -admin-
+┊🍓⛱️ephemeral
+┊🍓⛱️demote -admin-
+┊🍓⛱️promote -admin-
+┊🍓⛱️editinfo -admin-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_◉ᴛᴇxᴛᴘʀᴏᴍᴇɴᴜ◉_* 〕
-┊🪩candy -text-
-┊🪩christmas -text-
-┊🪩3dchristmas -text-
-┊🪩sparklechristmas -text-
-┊🪩deepsea -text-
-┊🪩scifi -text-
-┊🪩rainbow2 -text-
-┊🪩waterpipe -text-
-┊🪩spooky -text-
-┊🪩pencil -text-
-┊🪩circuit -text-
-┊🪩discovery -text-
-┊🪩metalic -text-
-┊🪩fiction -text-
-┊🪩demon -text-
-┊🪩transformer -text-
-┊🪩berry -text-
-┊🪩thunder -text-
-┊🪩3dstone2 -text-
-┊🪩neonlight -text-
-┊🪩glitch -text-
-┊🪩harrypotter -text-
-┊🪩brokenglass -text-
-┊🪩papercut -text-
-┊🪩watercolor -text-
-┊🪩multicolor -text-
-┊🪩neondevil -text-
-┊🪩underwater -text-
-┊🪩graffitibike -text-
-┊🪩snow -text-
-┊🪩cloud -text-
-┊🪩honey -text-
-┊🪩ice -text-
-┊🪩fruitjuice -text-
-┊🪩biscuit -text-
-┊🪩wood -text-
-┊🪩chocolate -text-
-┊🪩strawberry -text-
-┊🪩matrix -text-
-┊🪩blood -text-
-┊🪩dropwater -text-
-┊🪩toxic -text-
-┊🪩lava -text-
-┊🪩rock -text-
-┊🪩bloodglass -text-
-┊🪩halloween -text-
-┊🪩darkgold -text-
-┊🪩joker -text-
-┊🪩wicker -text-
-┊🪩firework -text-
-┊🪩skeleton -text-
-┊🪩blackpink -text-
-┊🪩sand -text-
-┊🪩glue -text-
-┊🪩1917 -text-
-┊🪩leaves -text-
+┊🍓⛱️candy -text-
+┊🍓⛱️christmas -text-
+┊🍓⛱️3dchristmas -text-
+┊🍓⛱️sparklechristmas -text-
+┊🍓⛱️deepsea -text-
+┊🍓⛱️scifi -text-
+┊🍓⛱️rainbow2 -text-
+┊🍓⛱️waterpipe -text-
+┊🍓⛱️spooky -text-
+┊🍓⛱️pencil -text-
+┊🍓⛱️circuit -text-
+┊🍓⛱️discovery -text-
+┊🍓⛱️metalic -text-
+┊🍓⛱️fiction -text-
+┊🍓⛱️demon -text-
+┊🍓⛱️transformer -text-
+┊🍓⛱️berry -text-
+┊🍓⛱️thunder -text-
+┊🍓⛱️3dstone2 -text-
+┊🍓⛱️neonlight -text-
+┊🍓⛱️glitch -text-
+┊🍓⛱️harrypotter -text-
+┊🍓⛱️brokenglass -text-
+┊🍓⛱️papercut -text-
+┊🍓⛱️watercolor -text-
+┊🍓⛱️multicolor -text-
+┊🍓⛱️neondevil -text-
+┊🍓⛱️underwater -text-
+┊🍓⛱️graffitibike -text-
+┊🍓⛱️snow -text-
+┊🍓⛱️cloud -text-
+┊🍓⛱️honey -text-
+┊🍓⛱️ice -text-
+┊🍓⛱️fruitjuice -text-
+┊🍓⛱️biscuit -text-
+┊🍓⛱️wood -text-
+┊🍓⛱️chocolate -text-
+┊🍓⛱️strawberry -text-
+┊🍓⛱️matrix -text-
+┊🍓⛱️blood -text-
+┊🍓⛱️dropwater -text-
+┊🍓⛱️toxic -text-
+┊🍓⛱️lava -text-
+┊🍓⛱️rock -text-
+┊🍓⛱️bloodglass -text-
+┊🍓⛱️halloween -text-
+┊🍓⛱️darkgold -text-
+┊🍓⛱️joker -text-
+┊🍓⛱️wicker -text-
+┊🍓⛱️firework -text-
+┊🍓⛱️skeleton -text-
+┊🍓⛱️blackpink -text-
+┊🍓⛱️sand -text-
+┊🍓⛱️glue -text-
+┊🍓⛱️1917 -text-
+┊🍓⛱️leaves -text-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_ᴅᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ_* 〕
-┊🪩ytmp3 -link-
-┊🪩ytmp4 -link-
-┊🪩audio  -link-
-┊🪩play -query-
-┊🪩song -query-
-┊🪩play2 -query-
-┊🪩mediafire -link-
-┊🪩fb -link-
-┊🪩fb2 -link-
-┊🪩ytsvideo -query-
-┊🪩getmusic -query-
-┊🪩getvideo -query-
-┊🪩savefrom -query-
-┊🪩pindl -query-
-┊🪩joox -query-
-┊🪩tiktok -link-
-┊🪩tiktok2 -link-
-┊🪩twitter -link-
-┊🪩twitter2 -link-
-┊🪩tiktok3 -link-
-┊🪩tiktok4 -link-
-┊🪩ig -link-
-┊🪩instagramstory -link-
-┊🪩instagramstory2 -link-
-┊🪩igimage -link-
-┊🪩instagramreal -link-
-┊🪩soundcloud -link-
-┊🪩ytshorts -link-
-┊🪩unma -link-
-┊🪩twitteraudio -link-
-┊🪩ytsaudio -query-
-┊🪩ytsvideo -query-
-┊🪩yts2 -query-
-┊🪩fbdl -link-
-┊🪩fbvideo -link-
-┊🪩get -link-
-┊🪩tiktok5 -link-
-┊🪩titktok3 -link-
-┊🪩tiktokmp3 -link-
-┊🪩ttmp3 -link-
-┊🪩ig2 -link-
-┊🪩ig3 -link-
-┊🪩igimage -link-
-┊🪩igtv -link-
-┊🪩fbmp3 -link-
-┊🪩ytdl -link-
+┊🍓⛱️ytmp3 -link-
+┊🍓⛱️ytmp4 -link-
+┊🍓⛱️audio  -link-
+┊🍓⛱️play -query-
+┊🍓⛱️song -query-
+┊🍓⛱️play2 -query-
+┊🍓⛱️mediafire -link-
+┊🍓⛱️fb -link-
+┊🍓⛱️fb2 -link-
+┊🍓⛱️ytsvideo -query-
+┊🍓⛱️getmusic -query-
+┊🍓⛱️getvideo -query-
+┊🍓⛱️savefrom -query-
+┊🍓⛱️pindl -query-
+┊🍓⛱️joox -query-
+┊🍓⛱️tiktok -link-
+┊🍓⛱️tiktok2 -link-
+┊🍓⛱️twitter -link-
+┊🍓⛱️twitter2 -link-
+┊🍓⛱️tiktok3 -link-
+┊🍓⛱️tiktok4 -link-
+┊🍓⛱️ig -link-
+┊🍓⛱️instagramstory -link-
+┊🍓⛱️instagramstory2 -link-
+┊🍓⛱️igimage -link-
+┊🍓⛱️instagramreal -link-
+┊🍓⛱️soundcloud -link-
+┊🍓⛱️ytshorts -link-
+┊🍓⛱️unma -link-
+┊🍓⛱️twitteraudio -link-
+┊🍓⛱️ytsaudio -query-
+┊🍓⛱️ytsvideo -query-
+┊🍓⛱️yts2 -query-
+┊🍓⛱️fbdl -link-
+┊🍓⛱️fbvideo -link-
+┊🍓⛱️get -link-
+┊🍓⛱️tiktok5 -link-
+┊🍓⛱️titktok3 -link-
+┊🍓⛱️tiktokmp3 -link-
+┊🍓⛱️ttmp3 -link-
+┊🍓⛱️ig2 -link-
+┊🍓⛱️ig3 -link-
+┊🍓⛱️igimage -link-
+┊🍓⛱️igtv -link-
+┊🍓⛱️fbmp3 -link-
+┊🍓⛱️ytdl -link-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_ᴘʜᴏᴛꜰɪʟᴛᴇʀᴍᴇɴᴜ_* 〕
-┊🪩angie -photo-
-┊🪩aria -photo-
-┊🪩attic -photo-
-┊🪩blackandwhite -photo-
-┊🪩chorme1977 -photo-
-┊🪩constrastbandw -photo-
-┊🪩creamy -photo-
-┊🪩duotone -photo-
-┊🪩eva -photo-
-┊🪩goldenhour -photo-
-┊🪩hana -photo-
-┊🪩lavander -photo-
-┊🪩lemonande -photo-
-┊🪩lightleak -photo-
-┊🪩lisa -photo-
-┊🪩lomo -photo-
-┊🪩milk -photo-
-┊🪩molly -photo-
-┊🪩monochrome -photo-
-┊🪩morning -photo-
-┊🪩movie -photo-
-┊🪩orton -photo-
-┊🪩paretro -photo-
-┊🪩perfectbandw -photo-
-┊🪩plumy -photo-
-┊🪩retrolga -photo-
-┊🪩ruby -photo-
-┊🪩sand -photo-
-┊🪩sapphire -photo-
-┊🪩sepia -photo-
-┊🪩softsepia -photo-
-┊🪩solarize -photo-
-┊🪩sphinx -photo-
-┊🪩venus -photo-
-┊🪩japanese -photo-
-┊🪩hdr -photo-
-┊🪩viewfilter -photo-
-┊🪩warmsunset -photo-
+┊🍓⛱️angie -photo-
+┊🍓⛱️aria -photo-
+┊🍓⛱️attic -photo-
+┊🍓⛱️blackandwhite -photo-
+┊🍓⛱️chorme1977 -photo-
+┊🍓⛱️constrastbandw -photo-
+┊🍓⛱️creamy -photo-
+┊🍓⛱️duotone -photo-
+┊🍓⛱️eva -photo-
+┊🍓⛱️goldenhour -photo-
+┊🍓⛱️hana -photo-
+┊🍓⛱️lavander -photo-
+┊🍓⛱️lemonande -photo-
+┊🍓⛱️lightleak -photo-
+┊🍓⛱️lisa -photo-
+┊🍓⛱️lomo -photo-
+┊🍓⛱️milk -photo-
+┊🍓⛱️molly -photo-
+┊🍓⛱️monochrome -photo-
+┊🍓⛱️morning -photo-
+┊🍓⛱️movie -photo-
+┊🍓⛱️orton -photo-
+┊🍓⛱️paretro -photo-
+┊🍓⛱️perfectbandw -photo-
+┊🍓⛱️plumy -photo-
+┊🍓⛱️retrolga -photo-
+┊🍓⛱️ruby -photo-
+┊🍓⛱️sand -photo-
+┊🍓⛱️sapphire -photo-
+┊🍓⛱️sepia -photo-
+┊🍓⛱️softsepia -photo-
+┊🍓⛱️solarize -photo-
+┊🍓⛱️sphinx -photo-
+┊🍓⛱️venus -photo-
+┊🍓⛱️japanese -photo-
+┊🍓⛱️hdr -photo-
+┊🍓⛱️viewfilter -photo-
+┊🍓⛱️warmsunset -photo-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_ɴꜱꜰᴡᴍᴇɴᴜ_* 〕
-┊🪩masturbation
-┊🪩jahy
-┊🪩hentai
-┊🪩glasses
-┊🪩gangbang
-┊🪩foot
-┊🪩femdom
-┊🪩cum
-┊🪩ero
-┊🪩cuckhold
-┊🪩blowjob
-┊🪩bdsm
-┊🪩ahegao
-┊🪩ass
-┊🪩orgy
-┊🪩panties
-┊🪩pussy
-┊🪩yuri
-┊🪩thighs
-┊🪩tentacles
+┊🍓⛱️masturbation
+┊🍓⛱️jahy
+┊🍓⛱️hentai
+┊🍓⛱️glasses
+┊🍓⛱️gangbang
+┊🍓⛱️foot
+┊🍓⛱️femdom
+┊🍓⛱️cum
+┊🍓⛱️ero
+┊🍓⛱️cuckhold
+┊🍓⛱️blowjob
+┊🍓⛱️bdsm
+┊🍓⛱️ahegao
+┊🍓⛱️ass
+┊🍓⛱️orgy
+┊🍓⛱️panties
+┊🍓⛱️pussy
+┊🍓⛱️yuri
+┊🍓⛱️thighs
+┊🍓⛱️tentacles
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_ᴀɴɪᴍᴇᴍᴇɴᴜ_* 〕
-┊🪩cry
-┊🪩kill
-┊🪩hug
-┊🪩pat
-┊🪩lick
-┊🪩kiss
-┊🪩bite
-┊🪩yeet
-┊🪩neko
-┊🪩bully
-┊🪩bonk
-┊🪩wink
-┊🪩poke
-┊🪩nom
-┊🪩slap
-┊🪩smile
-┊🪩wave
-┊🪩awoo
-┊🪩blush
-┊🪩smug
-┊🪩glomp
-┊🪩happy
-┊🪩dance
-┊🪩cringe
-┊🪩cuddle
-┊🪩highfive
-┊🪩shinobu
-┊🪩megumin
-┊🪩handhold
-┊🪩animeslap
-┊🪩animepat
-┊🪩animeneko
-┊🪩animehug
-┊🪩animekiss
-┊🪩animewlp
-┊🪩animespank
-┊🪩shinobu2
-┊🪩megumin2
-┊🪩awoo2
-┊🪩animewall2
-┊🪩searchanime -query-
+┊🍓⛱️cry
+┊🍓⛱️kill
+┊🍓⛱️hug
+┊🍓⛱️pat
+┊🍓⛱️lick
+┊🍓⛱️kiss
+┊🍓⛱️bite
+┊🍓⛱️yeet
+┊🍓⛱️neko
+┊🍓⛱️bully
+┊🍓⛱️bonk
+┊🍓⛱️wink
+┊🍓⛱️poke
+┊🍓⛱️nom
+┊🍓⛱️slap
+┊🍓⛱️smile
+┊🍓⛱️wave
+┊🍓⛱️awoo
+┊🍓⛱️blush
+┊🍓⛱️smug
+┊🍓⛱️glomp
+┊🍓⛱️happy
+┊🍓⛱️dance
+┊🍓⛱️cringe
+┊🍓⛱️cuddle
+┊🍓⛱️highfive
+┊🍓⛱️shinobu
+┊🍓⛱️megumin
+┊🍓⛱️handhold
+┊🍓⛱️animeslap
+┊🍓⛱️animepat
+┊🍓⛱️animeneko
+┊🍓⛱️animehug
+┊🍓⛱️animekiss
+┊🍓⛱️animewlp
+┊🍓⛱️animespank
+┊🍓⛱️shinobu2
+┊🍓⛱️megumin2
+┊🍓⛱️awoo2
+┊🍓⛱️animewall2
+┊🍓⛱️searchanime -query-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_ꜱᴇᴀʀᴄʜᴍᴇɴᴜ_* 〕
-┊🪩lyrics -query-
-┊🪩linkwa -query-
-┊🪩apk -query-
-┊🪩happymod -query-
-┊🪩apkupro -query-
-┊🪩google -query-
-┊🪩wiki -query-
-┊🪩ytsearch -query-
-┊🪩recipe -query-
-┊🪩playstore -query-
-┊🪩wikimedia -query-
-┊🪩news -query-
-┊🪩news2 -query-
-┊🪩animee -query-
-┊🪩anime -query-
-┊🪩amino -query-
-┊🪩googleimage -query-
-┊🪩apkdone -query-
-┊🪩githubsearch -query->
-┊🪩igsearch -username-
-┊🪩googlenews -query-
-┊🪩gnews -query-
-┊🪩wallpaper -query-
-┊🪩searchgroups -query-
-┊🪩qoutesanime -query-
-┊🪩gmsarena -query-
+┊🍓⛱️lyrics -query-
+┊🍓⛱️linkwa -query-
+┊🍓⛱️apk -query-
+┊🍓⛱️happymod -query-
+┊🍓⛱️apkupro -query-
+┊🍓⛱️google -query-
+┊🍓⛱️wiki -query-
+┊🍓⛱️ytsearch -query-
+┊🍓⛱️recipe -query-
+┊🍓⛱️playstore -query-
+┊🍓⛱️wikimedia -query-
+┊🍓⛱️news -query-
+┊🍓⛱️news2 -query-
+┊🍓⛱️animee -query-
+┊🍓⛱️anime -query-
+┊🍓⛱️amino -query-
+┊🍓⛱️googleimage -query-
+┊🍓⛱️apkdone -query-
+┊🍓⛱️ʙᴏᴛ ɢʀᴏᴜᴘsearch -query->
+┊🍓⛱️igsearch -username-
+┊🍓⛱️googlenews -query-
+┊🍓⛱️gnews -query-
+┊🍓⛱️wallpaper -query-
+┊🍓⛱️searchgroups -query-
+┊🍓⛱️qoutesanime -query-
+┊🍓⛱️gmsarena -query-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 ┌───〔*_◉ᴇᴘʜᴏᴛᴏ-ᴍᴇɴᴜ◉_*〕
-┊🪩3d-wood
-┊🪩angels-wings
-┊🪩snake-text
-┊🪩redhot-metal2
-┊🪩sandsummer-beach
-┊🪩snow-text
-┊🪩water-3d
-┊🪩water-effect
-┊🪩wet-glass
-┊🪩status-mood2
-┊🪩summerysand
+┊🍓⛱️3d-wood
+┊🍓⛱️angels-wings
+┊🍓⛱️snake-text
+┊🍓⛱️redhot-metal2
+┊🍓⛱️sandsummer-beach
+┊🍓⛱️snow-text
+┊🍓⛱️water-3d
+┊🍓⛱️water-effect
+┊🍓⛱️wet-glass
+┊🍓⛱️status-mood2
+┊🍓⛱️summerysand
 └───────────●
 
 ┌───〔 *_ᴄᴏɴᴠᴇʀᴛᴍᴇɴᴜ_* 〕
-┊🪩toimg -quote sticker-
-┊🪩togif -quote video-
-┊🪩todocument -media-
-┊🪩bass -audio-
-┊🪩blown -audio-
-┊🪩deep -audio-
-┊🪩earape -audio-
-┊🪩fast -audio-
-┊🪩fat -audio-
-┊🪩nightcore -audio-
-┊🪩reverse -audio-
-┊🪩robot -audio-
-┊🪩slow -audio-
-┊🪩smooth -audio-
-┊🪩squirrel -audio-
-┊🪩sticker -media-
-┊🪩smeme -media-
-┊🪩stickermeme -media-
-┊🪩swm -sticker-
+┊🍓⛱️toimg -quote sticker-
+┊🍓⛱️togif -quote video-
+┊🍓⛱️todocument -media-
+┊🍓⛱️bass -audio-
+┊🍓⛱️blown -audio-
+┊🍓⛱️deep -audio-
+┊🍓⛱️earape -audio-
+┊🍓⛱️fast -audio-
+┊🍓⛱️fat -audio-
+┊🍓⛱️nightcore -audio-
+┊🍓⛱️reverse -audio-
+┊🍓⛱️robot -audio-
+┊🍓⛱️slow -audio-
+┊🍓⛱️smooth -audio-
+┊🍓⛱️squirrel -audio-
+┊🍓⛱️sticker -media-
+┊🍓⛱️smeme -media-
+┊🍓⛱️stickermeme -media-
+┊🍓⛱️swm -sticker-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 ┌───〔 *_◉ᴅᴀᴛᴀʙᴀꜱᴇᴍᴇɴᴜ◉_* 〕
-┊🪩addmsg -msg-
-┊🪩delmsg -msg-
-┊🪩listmsg -msg-
-┊🪩getmsg -msg-
-┊🪩setcmd -msg-
-┊🪩delcmd -msg-
-┊🪩listcmd -msg-
+┊🍓⛱️addmsg -msg-
+┊🍓⛱️delmsg -msg-
+┊🍓⛱️listmsg -msg-
+┊🍓⛱️getmsg -msg-
+┊🍓⛱️setcmd -msg-
+┊🍓⛱️delcmd -msg-
+┊🍓⛱️listcmd -msg-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 ┌───〔 *_◉Photooxyᴍᴇɴᴜ◉_* 〕
-┊🪩silk -text-
-┊🪩3dnature -text-
-┊🪩bevel -text-
-┊🪩birthdaycake -text-
-┊🪩burnpaper -text-
-┊🪩coffee -text-
-┊🪩coffee-heartcup -text-
-┊🪩embroiderytext -text-
-┊🪩flaming -text-
-┊🪩flowertypo -text-
-┊🪩funnycup -text-
-┊🪩fur -text-
-┊🪩gerbang -text-
-┊🪩glowrainbow -text-
-┊🪩gradientavatar -text-
-┊🪩graffititext -text-
-┊🪩harrypotter -text-
-┊🪩lovemessage -text-
-┊🪩neonlight -text-
-┊🪩sweetcandy -text-
-┊🪩summertext -text-
-┊🪩woodheart -text-
-┊🪩yellowroses -text-
-┊🪩wolfmetal -text-
-┊🪩underwaterocean -text-
+┊🍓⛱️silk -text-
+┊🍓⛱️3dnature -text-
+┊🍓⛱️bevel -text-
+┊🍓⛱️birthdaycake -text-
+┊🍓⛱️burnpaper -text-
+┊🍓⛱️coffee -text-
+┊🍓⛱️coffee-heartcup -text-
+┊🍓⛱️embroiderytext -text-
+┊🍓⛱️flaming -text-
+┊🍓⛱️flowertypo -text-
+┊🍓⛱️funnycup -text-
+┊🍓⛱️fur -text-
+┊🍓⛱️gerbang -text-
+┊🍓⛱️glowrainbow -text-
+┊🍓⛱️gradientavatar -text-
+┊🍓⛱️graffititext -text-
+┊🍓⛱️harrypotter -text-
+┊🍓⛱️lovemessage -text-
+┊🍓⛱️neonlight -text-
+┊🍓⛱️sweetcandy -text-
+┊🍓⛱️summertext -text-
+┊🍓⛱️woodheart -text-
+┊🍓⛱️yellowroses -text-
+┊🍓⛱️wolfmetal -text-
+┊🍓⛱️underwaterocean -text-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
 
 ┌───〔 *_◉ᴍᴇɴᴜ ʀᴘɢ◉_* 〕
-┊🪩joinrpg
-┊🪩quest 
-┊🪩mining
-┊🪩mancing
-┊🪩luckyday
-┊🪩luckytime
-┊🪩adventure
-┊🪩inventori
+┊🍓⛱️joinrpg
+┊🍓⛱️quest 
+┊🍓⛱️mining
+┊🍓⛱️mancing
+┊🍓⛱️luckyday
+┊🍓⛱️luckytime
+┊🍓⛱️adventure
+┊🍓⛱️inventori
 └───────────●
 
 ┌───〔 *_◉Fᴀʀᴍ ʀᴘɢ◉_* 〕
-┊🪩killslime
-┊🪩killgoblin
-┊🪩killdevil
-┊🪩killbehemoth
-┊🪩killdemon
-┊🪩killdemonking 
+┊🍓⛱️killslime
+┊🍓⛱️killgoblin
+┊🍓⛱️killdevil
+┊🍓⛱️killbehemoth
+┊🍓⛱️killdemon
+┊🍓⛱️killdemonking 
 └───────────●
 
 ┌───〔 *_◉Tʀᴀᴅᴇ ʀᴘɢ◉_* 〕
-┊🪩sellikan
-┊🪩sellbesi
-┊🪩sellemas
-┊🪩selldiamond
+┊🍓⛱️sellikan
+┊🍓⛱️sellbesi
+┊🍓⛱️sellemas
+┊🍓⛱️selldiamond
 └───────────●
 %readmore` 
     let btn = [{
         urlButton: {
-            displayText: 'HELPER',
-            url: 'https://wa.me/+687820687'
+            displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+            url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL''
         }
     }, {
         urlButton: {
-            displayText: 'GITHUB',
-            url: 'https://github.com/DARK-ASIF'
+            displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+            url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
         }
     }, {
         quickReplyButton: {
@@ -7783,13 +7783,13 @@ anu = `
     hydratedFooterText: `${global.botname}`,
     hydratedButtons: [{
     urlButton: {
-    displayText: 'HELPER',
-    url: 'https://wa.me/+687820687'
+    displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL''
     }
     }, {
     urlButton: {
-    displayText: 'GITHUB',
-    url: 'https://github.com/DARK-ASIF'
+    displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
     }
     }, {
     quickReplyButton: {
@@ -7821,13 +7821,13 @@ anu = `
     hydratedFooterText: `${botname}`,
     hydratedButtons: [{
     urlButton: {
-    displayText: 'HELPER',
-    url: 'https://wa.me/+687820687'
+    displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL''
     }
     }, {
     urlButton: {
-    displayText: 'GITHUB',
-    url: 'https://github.com/DARK-ASIF'
+    displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
     }
     }, {
     quickReplyButton: {
@@ -7859,13 +7859,13 @@ anu = `
     hydratedFooterText: botname,
     hydratedButtons: [{
     urlButton: {
-    displayText: 'HELPER',
-    url: 'https://wa.me/+687820687'
+    displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL''
     }
     }, {
     urlButton: {
-    displayText: 'GITHUB',
-    url: 'https://github.com/DARK-ASIF'
+    displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
     }
     }, {
     quickReplyButton: {
@@ -7895,7 +7895,7 @@ anu = `
         }
         
     var buffer = await getBuffer(ppuser)
-    const buttonsDefault = [{ urlButton: { displayText: `HELPER`, url : `https://wa.me/+687820687` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/DARK-ASIF` } },
+    const buttonsDefault = [{ urlButton: { displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, url : `https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'` } }, { urlButton: { displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, url : `https://ʙᴏᴛ ɢʀᴏᴜᴘ.com/DARK-ASIF` } },
     {					
       quickReplyButton: {
       displayText: 'SPEED',
@@ -8038,29 +8038,29 @@ anu = `
 └───────────●
 
 ┌───〔 *_◉ᴏᴡɴᴇʀᴍᴇɴᴜ◉_* 〕
-┊🪩chatbot on/off
-┊🪩setmenu -option-
-┊🪩checkupdate 
-┊🪩updatenow
-┊🪩bc -text-
-┊🪩bcall -text-
-┊🪩bctext -text-
-┊🪩bcvideo -media-
-┊🪩bcaudio -media-
-┊🪩bcimage -media-
-┊🪩bcloc  -text-
-┊🪩bcgc -text-
-┊🪩lockcmd
-┊🪩setstatus -text-
-┊🪩setppbot -owner-
-┊🪩block -owner-
-┊🪩unblock -owner-
-┊🪩join -owner-
-┊🪩leave -owner-
-┊🪩chat -owner-
-┊🪩public
-┊🪩self
-┊🪩grouponly
+┊🍓⛱️chatbot on/off
+┊🍓⛱️setmenu -option-
+┊🍓⛱️checkupdate 
+┊🍓⛱️updatenow
+┊🍓⛱️bc -text-
+┊🍓⛱️bcall -text-
+┊🍓⛱️bctext -text-
+┊🍓⛱️bcvideo -media-
+┊🍓⛱️bcaudio -media-
+┊🍓⛱️bcimage -media-
+┊🍓⛱️bcloc  -text-
+┊🍓⛱️bcgc -text-
+┊🍓⛱️lockcmd
+┊🍓⛱️setstatus -text-
+┊🍓⛱️setppbot -owner-
+┊🍓⛱️block -owner-
+┊🍓⛱️unblock -owner-
+┊🍓⛱️join -owner-
+┊🍓⛱️leave -owner-
+┊🍓⛱️chat -owner-
+┊🍓⛱️public
+┊🍓⛱️self
+┊🍓⛱️grouponly
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8072,13 +8072,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "HELPER",
-"url": "https://wa.me/+687820687"
+"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/DARK-ASIF'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }
 ]
@@ -8106,13 +8106,13 @@ anu = `
 └───────────●
 
 ┌───〔 *_◉ᴅᴀᴛᴀʙᴀꜱᴇᴍᴇɴᴜ◉_* 〕
-┊🪩addmsg -msg-
-┊🪩delmsg -msg-
-┊🪩listmsg -msg-
-┊🪩getmsg -msg-
-┊🪩setcmd -msg-
-┊🪩delcmd -msg-
-┊🪩listcmd -msg-
+┊🍓⛱️addmsg -msg-
+┊🍓⛱️delmsg -msg-
+┊🍓⛱️listmsg -msg-
+┊🍓⛱️getmsg -msg-
+┊🍓⛱️setcmd -msg-
+┊🍓⛱️delcmd -msg-
+┊🍓⛱️listcmd -msg-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8124,13 +8124,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "HELPER",
-"url": "https://wa.me/+687820687"
+"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/DARK-ASIF'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }
 ]
@@ -8158,31 +8158,31 @@ case 'photooxymenu': {
 └───────────●
 
 ┌───〔 *_◉Photooxyᴍᴇɴᴜ◉_* 〕
-┊🪩silk -text-
-┊🪩3dnature -text-
-┊🪩bevel -text-
-┊🪩birthdaycake -text-
-┊🪩burnpaper -text-
-┊🪩coffee -text-
-┊🪩coffee-heartcup -text-
-┊🪩embroiderytext -text-
-┊🪩flaming -text-
-┊🪩flowertypo -text-
-┊🪩funnycup -text-
-┊🪩fur -text-
-┊🪩gerbang -text-
-┊🪩glowrainbow -text-
-┊🪩gradientavatar -text-
-┊🪩graffititext -text-
-┊🪩harrypotter -text-
-┊🪩lovemessage -text-
-┊🪩neonlight -text-
-┊🪩sweetcandy -text-
-┊🪩summertext -text-
-┊🪩woodheart -text-
-┊🪩yellowroses -text-
-┊🪩wolfmetal -text-
-┊🪩underwaterocean -text-
+┊🍓⛱️silk -text-
+┊🍓⛱️3dnature -text-
+┊🍓⛱️bevel -text-
+┊🍓⛱️birthdaycake -text-
+┊🍓⛱️burnpaper -text-
+┊🍓⛱️coffee -text-
+┊🍓⛱️coffee-heartcup -text-
+┊🍓⛱️embroiderytext -text-
+┊🍓⛱️flaming -text-
+┊🍓⛱️flowertypo -text-
+┊🍓⛱️funnycup -text-
+┊🍓⛱️fur -text-
+┊🍓⛱️gerbang -text-
+┊🍓⛱️glowrainbow -text-
+┊🍓⛱️gradientavatar -text-
+┊🍓⛱️graffititext -text-
+┊🍓⛱️harrypotter -text-
+┊🍓⛱️lovemessage -text-
+┊🍓⛱️neonlight -text-
+┊🍓⛱️sweetcandy -text-
+┊🍓⛱️summertext -text-
+┊🍓⛱️woodheart -text-
+┊🍓⛱️yellowroses -text-
+┊🍓⛱️wolfmetal -text-
+┊🍓⛱️underwaterocean -text-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
   `
   let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8194,13 +8194,13 @@ case 'photooxymenu': {
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "HELPER",
-  "url": "https://wa.me/+687820687"
+  "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/DARK-ASIF'
+  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
   }
   }
   ]
@@ -8228,48 +8228,48 @@ anu = `
 └───────────●
 
 ┌───〔 *_◉ɢʀᴏᴜᴘᴍᴇɴᴜ◉_* 〕
-┊🪩add -admin-
-┊🪩kick -admin-
-┊🪩welcome on/off -admin-
-┊🪩listpc 
-┊🪩listgc
-┊🪩groupinfo -admin-
-┊🪩antivn -admin-
-┊🪩antiphoto -admin-
-┊🪩antisticker -admin-
-┊🪩antivideo -admin-
-┊🪩antilinkall -admin-
-┊🪩antiinstagram -admin-
-┊🪩antitelegram -admin-
-┊🪩antilink -admin-
-┊🪩antiyt -admin-
-┊🪩antibule -admin-
-┊🪩antitiktok -admin-
-┊🪩antifacebook -admin-
-┊🪩antivirus -admin-
-┊🪩antibadword -admin-
-┊🪩antiwame -admin-
-┊🪩group -options-
-┊🪩mute
-┊🪩groupinfo
-┊🪩truth 
-┊🪩dare
-┊🪩slot
-┊🪩math
-┊🪩vote
-┊🪩devote
-┊🪩cekvote
-┊🪩deletevote
-┊🪩upvote
-┊🪩setsubject -admin-
-┊🪩setdesc -admin-
-┊🪩setppgroup -admin-
-┊🪩tagall -admin-
-┊🪩hidetag -admin-
-┊🪩ephemeral
-┊🪩demote -admin-
-┊🪩promote -admin-
-┊🪩editinfo -admin-
+┊🍓⛱️add -admin-
+┊🍓⛱️kick -admin-
+┊🍓⛱️welcome on/off -admin-
+┊🍓⛱️listpc 
+┊🍓⛱️listgc
+┊🍓⛱️groupinfo -admin-
+┊🍓⛱️antivn -admin-
+┊🍓⛱️antiphoto -admin-
+┊🍓⛱️antisticker -admin-
+┊🍓⛱️antivideo -admin-
+┊🍓⛱️antilinkall -admin-
+┊🍓⛱️antiinstagram -admin-
+┊🍓⛱️antitelegram -admin-
+┊🍓⛱️antilink -admin-
+┊🍓⛱️antiyt -admin-
+┊🍓⛱️antibule -admin-
+┊🍓⛱️antitiktok -admin-
+┊🍓⛱️antifacebook -admin-
+┊🍓⛱️antivirus -admin-
+┊🍓⛱️antibadword -admin-
+┊🍓⛱️antiwame -admin-
+┊🍓⛱️group -options-
+┊🍓⛱️mute
+┊🍓⛱️groupinfo
+┊🍓⛱️truth 
+┊🍓⛱️dare
+┊🍓⛱️slot
+┊🍓⛱️math
+┊🍓⛱️vote
+┊🍓⛱️devote
+┊🍓⛱️cekvote
+┊🍓⛱️deletevote
+┊🍓⛱️upvote
+┊🍓⛱️setsubject -admin-
+┊🍓⛱️setdesc -admin-
+┊🍓⛱️setppgroup -admin-
+┊🍓⛱️tagall -admin-
+┊🍓⛱️hidetag -admin-
+┊🍓⛱️ephemeral
+┊🍓⛱️demote -admin-
+┊🍓⛱️promote -admin-
+┊🍓⛱️editinfo -admin-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8281,13 +8281,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "HELPER",
-"url": "https://wa.me/+687820687"
+"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/DARK-ASIF'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }
 ]
@@ -8315,62 +8315,62 @@ anu = `
 └───────────●
 
 ┌───〔 *_◉ᴛᴇxᴛᴘʀᴏᴍᴇɴᴜ◉_* 〕
-┊🪩candy -text-
-┊🪩christmas -text-
-┊🪩3dchristmas -text-
-┊🪩sparklechristmas -text-
-┊🪩deepsea -text-
-┊🪩scifi -text-
-┊🪩rainbow2 -text-
-┊🪩waterpipe -text-
-┊🪩spooky -text-
-┊🪩pencil -text-
-┊🪩circuit -text-
-┊🪩discovery -text-
-┊🪩metalic -text-
-┊🪩fiction -text-
-┊🪩demon -text-
-┊🪩transformer -text-
-┊🪩berry -text-
-┊🪩thunder -text-
-┊🪩3dstone2 -text-
-┊🪩neonlight -text-
-┊🪩glitch -text-
-┊🪩harrypotter -text-
-┊🪩brokenglass -text-
-┊🪩papercut -text-
-┊🪩watercolor -text-
-┊🪩multicolor -text-
-┊🪩neondevil -text-
-┊🪩underwater -text-
-┊🪩graffitibike -text-
-┊🪩snow -text-
-┊🪩cloud -text-
-┊🪩honey -text-
-┊🪩ice -text-
-┊🪩fruitjuice -text-
-┊🪩biscuit -text-
-┊🪩wood -text-
-┊🪩chocolate -text-
-┊🪩strawberry -text-
-┊🪩matrix -text-
-┊🪩blood -text-
-┊🪩dropwater -text-
-┊🪩toxic -text-
-┊🪩lava -text-
-┊🪩rock -text-
-┊🪩bloodglass -text-
-┊🪩halloween -text-
-┊🪩darkgold -text-
-┊🪩joker -text-
-┊🪩wicker -text-
-┊🪩firework -text-
-┊🪩skeleton -text-
-┊🪩blackpink -text-
-┊🪩sand -text-
-┊🪩glue -text-
-┊🪩1917 -text-
-┊🪩leaves -text-
+┊🍓⛱️candy -text-
+┊🍓⛱️christmas -text-
+┊🍓⛱️3dchristmas -text-
+┊🍓⛱️sparklechristmas -text-
+┊🍓⛱️deepsea -text-
+┊🍓⛱️scifi -text-
+┊🍓⛱️rainbow2 -text-
+┊🍓⛱️waterpipe -text-
+┊🍓⛱️spooky -text-
+┊🍓⛱️pencil -text-
+┊🍓⛱️circuit -text-
+┊🍓⛱️discovery -text-
+┊🍓⛱️metalic -text-
+┊🍓⛱️fiction -text-
+┊🍓⛱️demon -text-
+┊🍓⛱️transformer -text-
+┊🍓⛱️berry -text-
+┊🍓⛱️thunder -text-
+┊🍓⛱️3dstone2 -text-
+┊🍓⛱️neonlight -text-
+┊🍓⛱️glitch -text-
+┊🍓⛱️harrypotter -text-
+┊🍓⛱️brokenglass -text-
+┊🍓⛱️papercut -text-
+┊🍓⛱️watercolor -text-
+┊🍓⛱️multicolor -text-
+┊🍓⛱️neondevil -text-
+┊🍓⛱️underwater -text-
+┊🍓⛱️graffitibike -text-
+┊🍓⛱️snow -text-
+┊🍓⛱️cloud -text-
+┊🍓⛱️honey -text-
+┊🍓⛱️ice -text-
+┊🍓⛱️fruitjuice -text-
+┊🍓⛱️biscuit -text-
+┊🍓⛱️wood -text-
+┊🍓⛱️chocolate -text-
+┊🍓⛱️strawberry -text-
+┊🍓⛱️matrix -text-
+┊🍓⛱️blood -text-
+┊🍓⛱️dropwater -text-
+┊🍓⛱️toxic -text-
+┊🍓⛱️lava -text-
+┊🍓⛱️rock -text-
+┊🍓⛱️bloodglass -text-
+┊🍓⛱️halloween -text-
+┊🍓⛱️darkgold -text-
+┊🍓⛱️joker -text-
+┊🍓⛱️wicker -text-
+┊🍓⛱️firework -text-
+┊🍓⛱️skeleton -text-
+┊🍓⛱️blackpink -text-
+┊🍓⛱️sand -text-
+┊🍓⛱️glue -text-
+┊🍓⛱️1917 -text-
+┊🍓⛱️leaves -text-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8382,13 +8382,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "HELPER",
-"url": "https://wa.me/+687820687"
+"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/DARK-ASIF'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }
 ]
@@ -8416,53 +8416,53 @@ anu =`
 └───────────●
 
 ┌───〔 *_ᴅᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ_* 〕
-┊🪩ytmp3 -link-
-┊🪩ytmp4 -link-
-┊🪩audio  -link-
-┊🪩play -query-
-┊🪩song -query-
-┊🪩play2 -query-
-┊🪩mediafire -link-
-┊🪩fb -link-
-┊🪩fb2 -link-
-┊🪩ytsvideo -query-
-┊🪩getmusic -query-
-┊🪩getvideo -query-
-┊🪩savefrom -query-
-┊🪩pindl -query-
-┊🪩joox -query-
-┊🪩tiktok -link-
-┊🪩tiktok2 -link-
-┊🪩twitter -link-
-┊🪩twitter2 -link-
-┊🪩tiktok3 -link-
-┊🪩tiktok4 -link-
-┊🪩ig -link-
-┊🪩instagramstory -link-
-┊🪩instagramstory2 -link-
-┊🪩igimage -link-
-┊🪩instagramreal -link-
-┊🪩soundcloud -link-
-┊🪩ytshorts -link-
-┊🪩unma -link-
-┊🪩twitteraudio -link-
-┊🪩ytsaudio -query-
-┊🪩ytsvideo -query-
-┊🪩yts2 -query-
-┊🪩fbdl -link-
-┊🪩fbvideo -link-
-┊🪩get -link-
-┊🪩tiktok5 -link-
-┊🪩titktok3 -link-
-┊🪩tiktokmp3 -link-
-┊🪩ttmp3 -link-
-┊🪩ig2 -link-
-┊🪩git -link-
-┊🪩ig3 -link-
-┊🪩igimage -link-
-┊🪩igtv -link-
-┊🪩fbmp3 -link-
-┊🪩ytdl -link-
+┊🍓⛱️ytmp3 -link-
+┊🍓⛱️ytmp4 -link-
+┊🍓⛱️audio  -link-
+┊🍓⛱️play -query-
+┊🍓⛱️song -query-
+┊🍓⛱️play2 -query-
+┊🍓⛱️mediafire -link-
+┊🍓⛱️fb -link-
+┊🍓⛱️fb2 -link-
+┊🍓⛱️ytsvideo -query-
+┊🍓⛱️getmusic -query-
+┊🍓⛱️getvideo -query-
+┊🍓⛱️savefrom -query-
+┊🍓⛱️pindl -query-
+┊🍓⛱️joox -query-
+┊🍓⛱️tiktok -link-
+┊🍓⛱️tiktok2 -link-
+┊🍓⛱️twitter -link-
+┊🍓⛱️twitter2 -link-
+┊🍓⛱️tiktok3 -link-
+┊🍓⛱️tiktok4 -link-
+┊🍓⛱️ig -link-
+┊🍓⛱️instagramstory -link-
+┊🍓⛱️instagramstory2 -link-
+┊🍓⛱️igimage -link-
+┊🍓⛱️instagramreal -link-
+┊🍓⛱️soundcloud -link-
+┊🍓⛱️ytshorts -link-
+┊🍓⛱️unma -link-
+┊🍓⛱️twitteraudio -link-
+┊🍓⛱️ytsaudio -query-
+┊🍓⛱️ytsvideo -query-
+┊🍓⛱️yts2 -query-
+┊🍓⛱️fbdl -link-
+┊🍓⛱️fbvideo -link-
+┊🍓⛱️get -link-
+┊🍓⛱️tiktok5 -link-
+┊🍓⛱️titktok3 -link-
+┊🍓⛱️tiktokmp3 -link-
+┊🍓⛱️ttmp3 -link-
+┊🍓⛱️ig2 -link-
+┊🍓⛱️git -link-
+┊🍓⛱️ig3 -link-
+┊🍓⛱️igimage -link-
+┊🍓⛱️igtv -link-
+┊🍓⛱️fbmp3 -link-
+┊🍓⛱️ytdl -link-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8474,13 +8474,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "HELPER",
-"url": "https://wa.me/+687820687"
+"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/DARK-ASIF'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }
 ]
@@ -8509,44 +8509,44 @@ anu =`
 
   
 ┌───〔 *_ᴘʜᴏᴛꜰɪʟᴛᴇʀᴍᴇɴᴜ_* 〕
-┊🪩angie -photo-
-┊🪩aria -photo-
-┊🪩attic -photo-
-┊🪩blackandwhite -photo-
-┊🪩chorme1977 -photo-
-┊🪩constrastbandw -photo-
-┊🪩creamy -photo-
-┊🪩duotone -photo-
-┊🪩eva -photo-
-┊🪩goldenhour -photo-
-┊🪩hana -photo-
-┊🪩lavander -photo-
-┊🪩lemonande -photo-
-┊🪩lightleak -photo-
-┊🪩lisa -photo-
-┊🪩lomo -photo-
-┊🪩milk -photo-
-┊🪩molly -photo-
-┊🪩monochrome -photo-
-┊🪩morning -photo-
-┊🪩movie -photo-
-┊🪩orton -photo-
-┊🪩paretro -photo-
-┊🪩perfectbandw -photo-
-┊🪩plumy -photo-
-┊🪩retrolga -photo-
-┊🪩ruby -photo-
-┊🪩sand -photo-
-┊🪩sapphire -photo-
-┊🪩sepia -photo-
-┊🪩softsepia -photo-
-┊🪩solarize -photo-
-┊🪩sphinx -photo-
-┊🪩venus -photo-
-┊🪩japanese -photo-
-┊🪩hdr -photo-
-┊🪩viewfilter -photo-
-┊🪩warmsunset -photo-
+┊🍓⛱️angie -photo-
+┊🍓⛱️aria -photo-
+┊🍓⛱️attic -photo-
+┊🍓⛱️blackandwhite -photo-
+┊🍓⛱️chorme1977 -photo-
+┊🍓⛱️constrastbandw -photo-
+┊🍓⛱️creamy -photo-
+┊🍓⛱️duotone -photo-
+┊🍓⛱️eva -photo-
+┊🍓⛱️goldenhour -photo-
+┊🍓⛱️hana -photo-
+┊🍓⛱️lavander -photo-
+┊🍓⛱️lemonande -photo-
+┊🍓⛱️lightleak -photo-
+┊🍓⛱️lisa -photo-
+┊🍓⛱️lomo -photo-
+┊🍓⛱️milk -photo-
+┊🍓⛱️molly -photo-
+┊🍓⛱️monochrome -photo-
+┊🍓⛱️morning -photo-
+┊🍓⛱️movie -photo-
+┊🍓⛱️orton -photo-
+┊🍓⛱️paretro -photo-
+┊🍓⛱️perfectbandw -photo-
+┊🍓⛱️plumy -photo-
+┊🍓⛱️retrolga -photo-
+┊🍓⛱️ruby -photo-
+┊🍓⛱️sand -photo-
+┊🍓⛱️sapphire -photo-
+┊🍓⛱️sepia -photo-
+┊🍓⛱️softsepia -photo-
+┊🍓⛱️solarize -photo-
+┊🍓⛱️sphinx -photo-
+┊🍓⛱️venus -photo-
+┊🍓⛱️japanese -photo-
+┊🍓⛱️hdr -photo-
+┊🍓⛱️viewfilter -photo-
+┊🍓⛱️warmsunset -photo-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8558,13 +8558,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "HELPER",
-"url": "https://wa.me/+687820687"
+"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/DARK-ASIF'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }
 ]
@@ -8593,26 +8593,26 @@ case 'nsfwmenu':{
   
     
 ┌───〔 *_ɴꜱꜰᴡᴍᴇɴᴜ_* 〕
-┊🪩masturbation
-┊🪩jahy
-┊🪩hentai
-┊🪩glasses
-┊🪩gangbang
-┊🪩foot
-┊🪩femdom
-┊🪩cum
-┊🪩ero
-┊🪩cuckhold
-┊🪩blowjob
-┊🪩bdsm
-┊🪩ahegao
-┊🪩ass
-┊🪩orgy
-┊🪩panties
-┊🪩pussy
-┊🪩yuri
-┊🪩thighs
-┊🪩tentacles
+┊🍓⛱️masturbation
+┊🍓⛱️jahy
+┊🍓⛱️hentai
+┊🍓⛱️glasses
+┊🍓⛱️gangbang
+┊🍓⛱️foot
+┊🍓⛱️femdom
+┊🍓⛱️cum
+┊🍓⛱️ero
+┊🍓⛱️cuckhold
+┊🍓⛱️blowjob
+┊🍓⛱️bdsm
+┊🍓⛱️ahegao
+┊🍓⛱️ass
+┊🍓⛱️orgy
+┊🍓⛱️panties
+┊🍓⛱️pussy
+┊🍓⛱️yuri
+┊🍓⛱️thighs
+┊🍓⛱️tentacles
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
   `
   let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8624,13 +8624,13 @@ case 'nsfwmenu':{
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "HELPER",
-  "url": "https://wa.me/+687820687"
+  "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/DARK-ASIF'
+  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
   }
   }
   ]
@@ -8659,47 +8659,47 @@ case 'animemenu':{
   
     
 ┌───〔 *_ᴀɴɪᴍᴇᴍᴇɴᴜ_* 〕
-┊🪩cry
-┊🪩kill
-┊🪩hug
-┊🪩pat
-┊🪩lick
-┊🪩kiss
-┊🪩bite
-┊🪩yeet
-┊🪩neko
-┊🪩bully
-┊🪩bonk
-┊🪩wink
-┊🪩poke
-┊🪩nom
-┊🪩slap
-┊🪩smile
-┊🪩wave
-┊🪩awoo
-┊🪩blush
-┊🪩smug
-┊🪩glomp
-┊🪩happy
-┊🪩dance
-┊🪩cringe
-┊🪩cuddle
-┊🪩highfive
-┊🪩shinobu
-┊🪩megumin
-┊🪩handhold
-┊🪩animeslap
-┊🪩animepat
-┊🪩animeneko
-┊🪩animehug
-┊🪩animekiss
-┊🪩animewlp
-┊🪩animespank
-┊🪩shinobu2
-┊🪩megumin2
-┊🪩awoo2
-┊🪩animewall2
-┊🪩searchanime -query-
+┊🍓⛱️cry
+┊🍓⛱️kill
+┊🍓⛱️hug
+┊🍓⛱️pat
+┊🍓⛱️lick
+┊🍓⛱️kiss
+┊🍓⛱️bite
+┊🍓⛱️yeet
+┊🍓⛱️neko
+┊🍓⛱️bully
+┊🍓⛱️bonk
+┊🍓⛱️wink
+┊🍓⛱️poke
+┊🍓⛱️nom
+┊🍓⛱️slap
+┊🍓⛱️smile
+┊🍓⛱️wave
+┊🍓⛱️awoo
+┊🍓⛱️blush
+┊🍓⛱️smug
+┊🍓⛱️glomp
+┊🍓⛱️happy
+┊🍓⛱️dance
+┊🍓⛱️cringe
+┊🍓⛱️cuddle
+┊🍓⛱️highfive
+┊🍓⛱️shinobu
+┊🍓⛱️megumin
+┊🍓⛱️handhold
+┊🍓⛱️animeslap
+┊🍓⛱️animepat
+┊🍓⛱️animeneko
+┊🍓⛱️animehug
+┊🍓⛱️animekiss
+┊🍓⛱️animewlp
+┊🍓⛱️animespank
+┊🍓⛱️shinobu2
+┊🍓⛱️megumin2
+┊🍓⛱️awoo2
+┊🍓⛱️animewall2
+┊🍓⛱️searchanime -query-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
   `
   let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8711,13 +8711,13 @@ case 'animemenu':{
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "HELPER",
-  "url": "https://wa.me/+687820687"
+  "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/DARK-ASIF'
+  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
   }
   }
   ]
@@ -8746,25 +8746,25 @@ case 'convertmenu': {
   
     
 ┌───〔 *_ᴄᴏɴᴠᴇʀᴛᴍᴇɴᴜ_* 〕
-┊🪩toimg -quote sticker-
-┊🪩togif -quote video-
-┊🪩todocument -media-
-┊🪩bass -audio-
-┊🪩blown -audio-
-┊🪩deep -audio-
-┊🪩earape -audio-
-┊🪩fast -audio-
-┊🪩fat -audio-
-┊🪩nightcore -audio-
-┊🪩reverse -audio-
-┊🪩robot -audio-
-┊🪩slow -audio-
-┊🪩smooth -audio-
-┊🪩squirrel -audio-
-┊🪩sticker -media-
-┊🪩smeme -media-
-┊🪩stickermeme -media-
-┊🪩swm -sticker-
+┊🍓⛱️toimg -quote sticker-
+┊🍓⛱️togif -quote video-
+┊🍓⛱️todocument -media-
+┊🍓⛱️bass -audio-
+┊🍓⛱️blown -audio-
+┊🍓⛱️deep -audio-
+┊🍓⛱️earape -audio-
+┊🍓⛱️fast -audio-
+┊🍓⛱️fat -audio-
+┊🍓⛱️nightcore -audio-
+┊🍓⛱️reverse -audio-
+┊🍓⛱️robot -audio-
+┊🍓⛱️slow -audio-
+┊🍓⛱️smooth -audio-
+┊🍓⛱️squirrel -audio-
+┊🍓⛱️sticker -media-
+┊🍓⛱️smeme -media-
+┊🍓⛱️stickermeme -media-
+┊🍓⛱️swm -sticker-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
   `
   let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8776,13 +8776,13 @@ case 'convertmenu': {
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "HELPER",
-  "url": "https://wa.me/+687820687"
+  "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/DARK-ASIF'
+  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
   }
   }
   ]
@@ -8812,20 +8812,20 @@ case 'toolmenu': {
   
     
 ┌───〔 *_ᴛᴏᴏʟᴍᴇɴᴜ_* 〕
-┊🪩ip ->-
-┊🪩ipdomain -domain name-
-┊🪩codecolor -text-
-┊🪩hackermaker -pic url-
-┊🪩checknumber -number-
-┊🪩veriphone -number-
-┊🪩weather -place-
-┊🪩attp -text-
-┊🪩ssweb-hp -url-
-┊🪩shortlink -url-
-┊🪩ssweb-pc -url-
-┊🪩shortlinkcuttly -url-
-┊🪩shortlinkisgd -url-
-┊🪩brainly -query-
+┊🍓⛱️ip ->-
+┊🍓⛱️ipdomain -domain name-
+┊🍓⛱️codecolor -text-
+┊🍓⛱️hackermaker -pic url-
+┊🍓⛱️checknumber -number-
+┊🍓⛱️veriphone -number-
+┊🍓⛱️weather -place-
+┊🍓⛱️attp -text-
+┊🍓⛱️ssweb-hp -url-
+┊🍓⛱️shortlink -url-
+┊🍓⛱️ssweb-pc -url-
+┊🍓⛱️shortlinkcuttly -url-
+┊🍓⛱️shortlinkisgd -url-
+┊🍓⛱️brainly -query-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
   `
   let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8837,13 +8837,13 @@ case 'toolmenu': {
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "HELPER",
-  "url": "https://wa.me/+687820687"
+  "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/DARK-ASIF'
+  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
   }
   }
   ]
@@ -8872,32 +8872,32 @@ case 'searchmenu':{
 └───────────●
 
 ┌───〔 *_ꜱᴇᴀʀᴄʜᴍᴇɴᴜ_* 〕
-┊🪩lyrics -query-
-┊🪩linkwa -query-
-┊🪩apk -query-
-┊🪩happymod -query-
-┊🪩apkupro -query-
-┊🪩google -query-
-┊🪩wiki -query-
-┊🪩ytsearch -query-
-┊🪩recipe -query-
-┊🪩playstore -query-
-┊🪩wikimedia -query-
-┊🪩news -query-
-┊🪩news2 -query-
-┊🪩animee -query-
-┊🪩anime -query-
-┊🪩amino -query-
-┊🪩googleimage -query-
-┊🪩apkdone -query-
-┊🪩githubsearch -query->
-┊🪩igsearch -username-
-┊🪩googlenews -query-
-┊🪩gnews -query-
-┊🪩wallpaper -query-
-┊🪩searchgroups -query-
-┊🪩qoutesanime -query-
-┊🪩gmsarena -query-
+┊🍓⛱️lyrics -query-
+┊🍓⛱️linkwa -query-
+┊🍓⛱️apk -query-
+┊🍓⛱️happymod -query-
+┊🍓⛱️apkupro -query-
+┊🍓⛱️google -query-
+┊🍓⛱️wiki -query-
+┊🍓⛱️ytsearch -query-
+┊🍓⛱️recipe -query-
+┊🍓⛱️playstore -query-
+┊🍓⛱️wikimedia -query-
+┊🍓⛱️news -query-
+┊🍓⛱️news2 -query-
+┊🍓⛱️animee -query-
+┊🍓⛱️anime -query-
+┊🍓⛱️amino -query-
+┊🍓⛱️googleimage -query-
+┊🍓⛱️apkdone -query-
+┊🍓⛱️ʙᴏᴛ ɢʀᴏᴜᴘsearch -query->
+┊🍓⛱️igsearch -username-
+┊🍓⛱️googlenews -query-
+┊🍓⛱️gnews -query-
+┊🍓⛱️wallpaper -query-
+┊🍓⛱️searchgroups -query-
+┊🍓⛱️qoutesanime -query-
+┊🍓⛱️gmsarena -query-
 └───〔 *_ᴅᴀʀᴋ ʙᴏᴛ ɪɴᴄ_* 〕
 
   `
@@ -8910,13 +8910,13 @@ case 'searchmenu':{
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "HELPER",
-  "url": "https://wa.me/+687820687"
+  "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/DARK-ASIF'
+  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
   }
   }
   ]
@@ -8945,17 +8945,17 @@ anu =`
 └───────────●
 
 ┌───〔*_◉ᴇᴘʜᴏᴛᴏ-ᴍᴇɴᴜ◉_*〕
-┊🪩3d-wood
-┊🪩angels-wings
-┊🪩snake-text
-┊🪩redhot-metal2
-┊🪩sandsummer-beach
-┊🪩snow-text
-┊🪩water-3d
-┊🪩water-effect
-┊🪩wet-glass
-┊🪩status-mood2
-┊🪩summerysand
+┊🍓⛱️3d-wood
+┊🍓⛱️angels-wings
+┊🍓⛱️snake-text
+┊🍓⛱️redhot-metal2
+┊🍓⛱️sandsummer-beach
+┊🍓⛱️snow-text
+┊🍓⛱️water-3d
+┊🍓⛱️water-effect
+┊🍓⛱️wet-glass
+┊🍓⛱️status-mood2
+┊🍓⛱️summerysand
 └───────────●
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
@@ -8967,13 +8967,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "HELPER",
-"url": "https://wa.me/+687820687"
+"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
+"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/DARK-ASIF'
+displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
+url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 }
 }
 ]
