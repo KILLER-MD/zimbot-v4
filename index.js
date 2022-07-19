@@ -164,8 +164,7 @@ mediaUrl:`https://youtu.be/ww4z2m3uORU`,
 sourceUrl: `https://youtu.be/ww4z2m3uORU`,
 }}
 }
-const driphunny = fs.readFileSync('./Zimbot/welcome.mp3')
-ZimBotInc.sendMessage(anu.id, { audio: driphunny, mimetype: 'audio/mp4', ptt: true})
+
 ZimBotInc.sendMessage(anu.id, buttonMessage)
                } else if (anu.action == 'remove') {
                     var buffer = await getBuffer(ppuser)
@@ -193,12 +192,11 @@ body:"ASIF KHAN🌼💛",
 showAdAttribution: true,
 mediaType:2,
 thumbnail: mhatadzenyu,
-mediaUrl:`https://youtu.be/ww4z2m3uORU`, 
-sourceUrl: `https://youtu.be/ww4z2m3uORU`,
+mediaUrl:`https://wa.me/+923474187615`, 
+sourceUrl: `https://wa.me/+923474187615`,
 }}
 }
-const dripbabe = fs.readFileSync('./Zimbot/leave.mp3')
-ZimBotInc.sendMessage(anu.id, { audio: dripbabe, mimetype: 'audio/mp4', ptt: true})
+
 ZimBotInc.sendMessage(anu.id, buttonMessage)
     
                 }
