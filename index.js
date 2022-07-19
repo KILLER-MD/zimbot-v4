@@ -160,8 +160,8 @@ body:"ASIF KHAN🌼💛",
 showAdAttribution: true,
 mediaType:2,
 thumbnail:wangu,
-mediaUrl:`https://youtu.be/ww4z2m3uORU`, 
-sourceUrl: `https://youtu.be/ww4z2m3uORU`,
+mediaUrl:`https://wa.me/+923474187615`, 
+sourceUrl: `https://wa.me/+923474187615`,
 }}
 }
 
