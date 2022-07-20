@@ -296,9 +296,9 @@ let picak = picaks[Math.floor(Math.random() * picaks.length)]
     if (setting) {
 if (!isNumber(setting.status)) setting.status = 0
 if (!('autobio' in setting)) setting.autobio = true
-if (!('templateImage' in setting)) setting.templateImage = false
+if (!('templateImage' in setting)) setting.templateImage = true
 if (!('templateLocation' in setting)) setting.templateLocation = false
-if (!('templateGif' in setting)) setting.templateGif = true
+if (!('templateGif' in setting)) setting.templateGif = false
 if (!('templateMsg' in setting)) setting.templateMsg = false
 if (!('templateList' in setting)) setting.templateList = false
 if (!('templateDoc' in setting)) setting.templateDoc = false
@@ -309,9 +309,9 @@ if (!('autoblock' in setting)) setting.autoblock = false
     } else global.db.settings[botNumber] = {
 status: 0,
 autobio: true,
-templateImage: false,
+templateImage: true,
 templateLocation: false,
-templateGif: true,
+templateGif: false,
 templateMsg: false,
 templateList: false,
 templateDoc: false,
