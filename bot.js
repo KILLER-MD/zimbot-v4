@@ -47,6 +47,7 @@ global.author = 'By Asif Khan\n\n\n\n\n\n 🍾 _CuʈƏ  Bυʈ  PsɣcĦ❍_"<3�
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
 global.sp = '🔵' //sp
+global.group1 = 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
 global.dripstyping = false
 global.dripsreadgroup = false
 global.dripsreadall = false
