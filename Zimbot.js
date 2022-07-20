@@ -256,7 +256,7 @@ let picak = picaks[Math.floor(Math.random() * picaks.length)]
   if (!('antilinkyt' in chats)) chats.antilinkyt = false
   if (!('autoblock' in chats)) chats.autoblock = false
   if (!('isWelcome' in chats)) chats.isWelcome = false
-  if (!('antilinkall' in chats)) chats.antilinkall = false
+  if (!('antilinkall' in chats)) chats.antilinkall = true
   if (!('antiytchannel' in chats)) chats.antiytchannel = false
   if (!('antitiktok' in chats)) chats.antitiktok = false
   if (!('antitelegram' in chats)) chats.antitelegram = false
@@ -277,7 +277,7 @@ let picak = picaks[Math.floor(Math.random() * picaks.length)]
    antilink: false,
    antilinkyt: false,
    isWelcome: false,
-   antilinkall: false,
+   antilinkall: true,
    antiytchannel: false,
    antitiktok: false,
    antitelegram: false,
@@ -298,10 +298,10 @@ if (!isNumber(setting.status)) setting.status = 0
 if (!('autobio' in setting)) setting.autobio = true
 if (!('templateImage' in setting)) setting.templateImage = false
 if (!('templateLocation' in setting)) setting.templateLocation = false
-if (!('templateGif' in setting)) setting.templateGif = false
+if (!('templateGif' in setting)) setting.templateGif = true
 if (!('templateMsg' in setting)) setting.templateMsg = false
 if (!('templateList' in setting)) setting.templateList = false
-if (!('templateDoc' in setting)) setting.templateDoc = true
+if (!('templateDoc' in setting)) setting.templateDoc = false
 if (!('chatbot' in setting)) setting.chatbot = false
 if (!('templateAreobot' in setting)) setting.templateZimbot = false
 if (!('grouponly' in setting)) setting.grouponly = false
@@ -311,10 +311,10 @@ status: 0,
 autobio: true,
 templateImage: false,
 templateLocation: false,
-templateGif: false,
+templateGif: true,
 templateMsg: false,
 templateList: false,
-templateDoc: true,
+templateDoc: false,
 templateAreobot: false,
 chatbot: false,
 grouponly: false,
@@ -922,13 +922,13 @@ ZimBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 if (db.chats[m.chat].antiinstagram) {
     if (budy.includes("https://www.instagram.com/")){
  if (!isBotAdmins) return
- zimbotv3 = `*▊▊▊DETECTED▊▊▊*\n\n*you are admn okay*`
+ zimbotv3 = `*⚔️🍓DETECTED⚔️🍓*\n\n*you are admn okay*`
  if (isAdmins) return reply(zimbotv3)
  if (m.key.fromMe) return reply(zimbotv3)
  if (isCreator) return reply(zimbotv3)
  kice = m.sender
  await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
- ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no ig links here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ ZimBotInc.sendMessage(from, {text:`*⚔️🍓DETECTED⚔️🍓*\n\n@${kice.split("@")[0]} *I said no ig links here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
  }
 }
 
@@ -941,7 +941,7 @@ if (isCreator) return reply(`*𝘖𝘰𝘰𝘰𝘩 𝘴𝘩𝘪𝘵😩 𝘴𝘰
 reply('*ANTI STICKER*\n\n*NO STICKERS  ALLOWED HERE OKAY GOODBYE*')
 kice = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no stickers here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ZimBotInc.sendMessage(from, {text:`*⚔️🍓DETECTED⚔️🍓*\n\n@${kice.split("@")[0]} *I said no stickers here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 }
 }
 }
@@ -955,7 +955,7 @@ if (isCreator) return reply(`*𝘖𝘰𝘰𝘰𝘩 𝘴𝘩𝘪𝘵😩 𝘴𝘰
 reply('*ANTI VOICE NOTE*\n\n*NO VOICE ALLOWED HERE  OKAY GOODBYE*')
 kice = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no voice note here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ZimBotInc.sendMessage(from, {text:`*⚔️🍓DETECTED⚔️🍓*\n\n@${kice.split("@")[0]} *I said no voice note here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 }
 }
 }
@@ -969,7 +969,7 @@ if (isCreator) return reply(`*𝘖𝘰𝘰𝘰𝘩 𝘴𝘩𝘪𝘵😩 𝘴𝘰
 reply('*ANTI VIDEO*\n\n*NO VIDEOS ALLOWED HERE  OKAY GOODBYE*')
 kice = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no videos here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ZimBotInc.sendMessage(from, {text:`*⚔️🍓DETECTED⚔️🍓*\n\n@${kice.split("@")[0]} *I said no videos here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 }
 }
 }
@@ -983,7 +983,7 @@ if (isCreator) return reply(`*𝘖𝘰𝘰𝘰𝘩 𝘴𝘩𝘪𝘵😩 𝘴𝘰
 reply('*ANTI PHOTOS*\n\n*NO PHOTOS ALLOWED HERE  OKAY GOODBYE*')
 kice = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no photos here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ZimBotInc.sendMessage(from, {text:`*⚔️🍓DETECTED⚔️🍓*\n\n@${kice.split("@")[0]} *I said no photos here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 }
 }
 }
@@ -991,72 +991,72 @@ ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split
 if (db.chats[m.chat].antifb) {
 if(budy.includes("https://facebook.com/")){
 if (!isBotAdmins) return
-zimbotv3 = `*▊▊▊DETECTED▊▊▊*\n\n*you are admin okay*`
+zimbotv3 = `*⚔️🍓DETECTED⚔️🍓*\n\n*you are admin okay*`
 if (isAdmins) return reply(zimbotv3)
 if (m.key.fromMe) return reply(zimbotv3)
 if (isCreator) return reply(zimbotv3)
 kice = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
- ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no fb links here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ ZimBotInc.sendMessage(from, {text:`*⚔️🍓DETECTED⚔️🍓*\n\n@${kice.split("@")[0]} *I said no fb links here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } 
  }
 
  if (db.chats[m.chat].antitelegram) {
  if (budy.includes("https://t.me/")){
  if (!isBotAdmins) return
- zimbotv3 = `*▊▊▊DETECTED▊▊▊*\n*you are admin okay*`
+ zimbotv3 = `*⚔️🍓DETECTED⚔️🍓*\n*you are admin okay*`
  if (isAdmins) return reply(zimbotv3)
  if (m.key.fromMe) return reply(zimbotv3)
  if (isCreator) return reply(zimbotv3)
  kice = m.sender
  await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
- ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no telegram links here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ ZimBotInc.sendMessage(from, {text:`*⚔️🍓DETECTED⚔️🍓*\n\n@${kice.split("@")[0]} *I said no telegram links here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } 
  }
 
 if (db.chats[m.chat].antitiktok) {
 if (budy.includes("https://www.tiktok.com/")){
 if (!isBotAdmins) return
-zimbotv3 = `*▊▊▊DETECTED▊▊▊*\n\n*you are bot admin okay*`
+zimbotv3 = `*⚔️🍓DETECTED⚔️🍓*\n\n*you are bot admin okay*`
 if (isAdmins) return m.reply(zimbotv3)
 if (m.key.fromMe) return m.reply(zimbotv3)
 if (isCreator) return m.reply(zimbotv3)
 kice = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no tiktok links here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ZimBotInc.sendMessage(from, {text:`*⚔️🍓DETECTED⚔️🍓*\n\n@${kice.split("@")[0]} *I said no tiktok links here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 }
 }
 
 if (db.chats[m.chat].antitwitter) {
 if (budy.includes("https://twitter.com/")){
 if (!isBotAdmins) return
-zimbotv3 = `*▊▊▊DETECTED▊▊▊*\n *you are bot admin okay*`
+zimbotv3 = `*⚔️🍓DETECTED⚔️🍓*\n *you are bot admin okay*`
 if (isAdmins) return reply(zimbotv3)
 if (m.key.fromMe) return reply(zimbotv3)
 if (isCreator) return reply(zimbotv3)
 kice = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no twittwer link here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ZimBotInc.sendMessage(from, {text:`*⚔️🍓DETECTED⚔️🍓*\n\n@${kice.split("@")[0]} *I said no twittwer link here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 }
 }
 
 if (db.chats[m.chat].antilinkall) {
 if (budy.includes("http")){ 
 if (!isBotAdmins) return
-zimbotv3 = `*▊▊▊DETECTED▊▊▊*\n *you are bot admin okay*`
+zimbotv3 = `*⚔️🍓DETECTED⚔️🍓*\n *you are bot admin okay*`
 if (isAdmins) return reply(zimbotv3)
 if (m.key.fromMe) return reply(zimbotv3)
 if (isCreator) return reply(zimbotv3)
 kice = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-ZimBotInc.sendMessage(m.chat, {text:`*▊▊▊DETECTED▊▊▊*\n@${kice.split("@")[0]} *I said dont send any links okay*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ZimBotInc.sendMessage(m.chat, {text:`*⚔️🍓DETECTED⚔️🍓*\n@${kice.split("@")[0]} *I said dont send any links okay*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 }
 }
 
 
 if (m.mtype == 'viewOnceMessage') {
 if (!db.chats[m.chat].antionce) return
-teks = `*▊▊▊DETECTED ONCE▊▊▊*
+teks = `*⚔️🍓DETECTED ONCE⚔️🍓*
 
 `
 ZimBotInc.sendTextWithMentions(m.chat, teks, m)
@@ -1069,19 +1069,19 @@ m.copyNForward(m.chat, true, { readViewOnce: true }).catch(_ => reply(`*I opened
 if (db.chats[m.chat].antilinkyt) {
 if (budy.includes("https://youtube.com/")){ 
 if (!isBotAdmins) return
-zimbotv3 = `*▊▊▊DETECTED▊▊▊*\n*you are admin okay*`
+zimbotv3 = `*⚔️🍓DETECTED⚔️🍓*\n*you are admin okay*`
 if (isAdmins) return reply(zimbotv3)
 if (m.key.fromMe) return reply(zimbotv3)
 if (isCreator) return reply(zimbotv3)
 kice = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no yt links here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ZimBotInc.sendMessage(from, {text:`*⚔️🍓DETECTED⚔️🍓*\n\n@${kice.split("@")[0]} *I said no yt links here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } 
 }
 
 if (db.chats[m.chat].antilink) {
 if (budy.match(`chat.whatsapp.com`)) {
-reply(`*▊▊▊ ANTILINK ▊▊▊*\n\n*You have been detected sending a group link, sorry you will be kicked!*`)
+reply(`*⚔️🍓 ANTILINK ⚔️🍓*\n\n*You have been detected sending a group link, sorry you will be kicked!*`)
 if (!isBotAdmins) return reply(`*bot must be admin okay*`)
 let gclink = (`https://chat.whatsapp.com/`+await ZimBotInc.groupInviteCode(m.chat))
 let isLinkThisGc = new RegExp(gclink, 'i')
@@ -1097,7 +1097,7 @@ if (!m.isGroup) return
 if (!isAntiVirtex) return
 if (groupAdmins) return
 reply('Mark as read\n'.repeat(300))
-reply(`*▊▊▊DETECTED▊▊▊*\n\n*You sent a virtex, sorry you will be kicked from the group*`)
+reply(`*⚔️🍓DETECTED⚔️🍓*\n\n*You sent a virtex, sorry you will be kicked from the group*`)
 console.log(('[KICK]', 'red'), color('Received a text virus!', 'yellow'))
 ZimBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 }  
@@ -1106,13 +1106,13 @@ ZimBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 if (db.chats[m.chat].antiwame) {
 if (budy.includes(`http://wa.me`)) {
 if (!isBotAdmins) return
-zimbotv3 = `*▊▊▊DETECTED▊▊▊*\n\n*you are admin okay*`
+zimbotv3 = `*⚔️🍓DETECTED⚔️🍓*\n\n*you are admin okay*`
 if (isAdmins) return reply(zimbotv3)
 if (m.key.fromMe) return reply(zimbotv3)
 if (isCreator) return reply(zimbotv3)
 kice = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no links okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ZimBotInc.sendMessage(from, {text:`*⚔️🍓DETECTED⚔️🍓*\n\n@${kice.split("@")[0]} *I said no links okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 }
 }
 
@@ -1120,7 +1120,7 @@ if (db.settings[botNumber].autoblock) {
 if (m.chat.endsWith("@s.whatsapp.net")) {
 if (isCreator) reply('*you are bot creator okay*')
 block = m.sender
-await ZimBotInc.sendMessage(from, {text:`*▊▊▊AUTO BLOCK▊▊▊*\n\n@${block.split("@")[0]} *today I'm blocking dumps bye you are _blocked_* *if you want to use bot join this group* ${global.group1}\n\n${global.group2}`, m})
+await ZimBotInc.sendMessage(from, {text:`*⚔️🍓AUTO BLOCK⚔️🍓*\n\n@${block.split("@")[0]} *today I'm blocking dumps bye you are _blocked_* *if you want to use bot join this group* ${global.group1}\n\n${global.group2}`, m})
 ZimBotInc.updateBlockStatus(m.sender,'block')
 }
 }
@@ -1128,12 +1128,12 @@ ZimBotInc.updateBlockStatus(m.sender,'block')
 if (db.chats[m.chat].antilinkyt) {
 if (budy.includes(`https://nando.com`)) {
 if (!isBotAdmins) return reply('*BOT MUST BE ADMIN OKAY*')
-reply(`*▊▊▊ ANTIYT ▊▊▊*\n\n*SOrry ${botname} will kick you out because what you sent is a youtube link in this group*`)
+reply(`*⚔️🍓 ANTIYT ⚔️🍓*\n\n*SOrry ${botname} will kick you out because what you sent is a youtube link in this group*`)
 if (isAdmins) return reply(`*Ehh sorry you admin*`)
  if (isCreator) return reply(`*whoa you are  bot creator i wont kick you okay*`)
 kice = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
-ZimBotInc.sendMessage(m.chat, {text:`*▊▊▊ ANTILINK ▊▊▊*\n\n@${kice.split("@")[0]} *Has been kicked for sending the youtube link in this group*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ZimBotInc.sendMessage(m.chat, {text:`*⚔️🍓 ANTILINK ⚔️🍓*\n\n@${kice.split("@")[0]} *Has been kicked for sending the youtube link in this group*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 }
 }
 
@@ -1141,12 +1141,12 @@ ZimBotInc.sendMessage(m.chat, {text:`*▊▊▊ ANTILINK ▊▊▊*\n\n@${kice.s
 if (db.chats[m.chat].antibule)  {
 if (m.sender.includes(`+212`)) {
 if (!isBotAdmins) return reply('*BOT MUST BE ADMIN OKAY*')
-reply(`*▊▊▊ ANTIBULE ▊▊▊*\n\n*Sorry ${botname} will kick you out because you are a stranger in this group*`)
+reply(`*⚔️🍓 ANTIBULE ⚔️🍓*\n\n*Sorry ${botname} will kick you out because you are a stranger in this group*`)
 if (isAdmins) return reply(`*Ehh sorry you admin*`)
 if (isCreator) return reply(`*whoa you are  bot creator i wont kick you okay*`)
 kice = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
-ZimBotInc.sendMessage(m.chat, {text:`*▊▊▊ ANTILINK ▊▊▊*\n\n@${kice.split("@")[0]} *You shouldn't be in this group*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+ZimBotInc.sendMessage(m.chat, {text:`*⚔️🍓 ANTILINK ⚔️🍓*\n\n@${kice.split("@")[0]} *You shouldn't be in this group*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 }
 }
 if (db.settings[botNumber].grouponly) {
@@ -2209,7 +2209,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
  case 'sc': case 'script': case 'donate': case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 
   teks = `
-  *AREO BOT*\n\n*OWNER:* https://wa.me/+923474187615\n*ʙᴏᴛ ɢʀᴏᴜᴘ:* https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL\n\n*Group:* no group sorry 😔`
+  *AREO BOT*\n\n*OWNER:* https://wa.me/+923474187615\n*GITHUB:* https://github.com/DARK-ASIF\n\n*Group:* no group sorry 😔`
   let buttons = [
   {buttonId: `rpgmenu`, buttonText: {displayText: 'RPG'}, type: 1}
   ]
@@ -2942,7 +2942,7 @@ let drips = [
 { buttonId: 'antilink on', buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: 'antilink off', buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, drips, `*⚔️🍓ANTILINK MODE⚔️🍓*`, ZimBotInc.user.name, m)
 }
 }
 break
@@ -2963,7 +2963,7 @@ let drips = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, drips, `*⚔️🍓ANTILINK MODE⚔️🍓*`, ZimBotInc.user.name, m)
 }
 }
 break
@@ -2984,7 +2984,7 @@ reply(`*Antilink disabled*`)
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
  ]
- await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+ await ZimBotInc.sendButtonText(m.chat, drips, `*⚔️🍓ANTILINK MODE⚔️🍓*`, ZimBotInc.user.name, m)
 }
 }
 break
@@ -3005,7 +3005,7 @@ case 'antilinkfacebook': case 'antifb': {
     { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
     { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, drips, `*⚔️🍓ANTILINK MODE⚔️🍓*`, ZimBotInc.user.name, m)
  }
   }
 break
@@ -3026,7 +3026,7 @@ let drips = [
   { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
   { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
    ]
-   await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, drips, `*⚔️🍓ANTILINK MODE⚔️🍓*`, ZimBotInc.user.name, m)
  }
 }
 break
@@ -3047,7 +3047,7 @@ case 'antivn': case 'antiaudio': case 'antivoicenote': case 'antivoice': {
      { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
      { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
  ]
- await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANT VN MODE▊▊▊*`, ZimBotInc.user.name, m)
+ await ZimBotInc.sendButtonText(m.chat, drips, `*⚔️🍓ANT VN MODE⚔️🍓*`, ZimBotInc.user.name, m)
   }
    }
  break
@@ -3068,7 +3068,7 @@ let drips = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTISTICKER MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, drips, `*⚔️🍓ANTISTICKER MODE⚔️🍓*`, ZimBotInc.user.name, m)
 }
 }
 break
@@ -3089,7 +3089,7 @@ let drips = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTIPHOTO MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, drips, `*⚔️🍓ANTIPHOTO MODE⚔️🍓*`, ZimBotInc.user.name, m)
 }
 }
 break
@@ -3110,7 +3110,7 @@ case 'antivideo': case 'antivid': {
      { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
      { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
  ]
- await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTIVIDEO MODE▊▊▊*`, ZimBotInc.user.name, m)
+ await ZimBotInc.sendButtonText(m.chat, drips, `*⚔️🍓ANTIVIDEO MODE⚔️🍓*`, ZimBotInc.user.name, m)
   }
    }
  break
@@ -3130,7 +3130,7 @@ let drips = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK VIEW▊▊▊*`, `${global.botname}`, m)
+await ZimBotInc.sendButtonText(m.chat, drips, `*⚔️🍓ANTILINK VIEW⚔️🍓*`, `${global.botname}`, m)
 }
 break
 case 'antitiktok': case 'aantitik': {
@@ -3150,7 +3150,7 @@ let drips = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, drips, `*⚔️🍓ANTILINK MODE⚔️🍓*`, ZimBotInc.user.name, m)
 }
 }
 break
@@ -3171,7 +3171,7 @@ if (args[0] === "on") {
     { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
     { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, drips, `*⚔️🍓ANTILINK MODE⚔️🍓*`, ZimBotInc.user.name, m)
  }
  }
 break
@@ -3192,7 +3192,7 @@ reply(`*Antilink disabled*`)
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
  ]
- await ZimBotInc.sendButtonText(m.chat, dripsi, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+ await ZimBotInc.sendButtonText(m.chat, dripsi, `*⚔️🍓ANTILINK MODE⚔️🍓*`, ZimBotInc.user.name, m)
 }
  }
 break
@@ -3210,7 +3210,7 @@ var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-ZimBotInc.sendMessage(from, {text: `*▊▊▊ANTILINK RUDE▊▊▊*\n\n*no hate speech anymore, watch space im going to kick dumps*`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+ZimBotInc.sendMessage(from, {text: `*⚔️🍓ANTILINK RUDE⚔️🍓*\n\n*no hate speech anymore, watch space im going to kick dumps*`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
 if (!antiToxic) return reply('*Already deactivated*')
 let off = dripsanti.indexOf(from)
@@ -3221,7 +3221,7 @@ reply('*Success in turning off antirude in this group happy now*')
  { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
  { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
  ]
- await ZimBotInc.sendButtonText(m.chat, buttons, `*▊▊▊ANTI BADWORDS▊▊▊*\n\n.`, `${global.botname}`, m)
+ await ZimBotInc.sendButtonText(m.chat, buttons, `*⚔️🍓ANTI BADWORDS⚔️🍓*\n\n.`, `${global.botname}`, m)
  }
  }
  
@@ -3257,7 +3257,7 @@ let button = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, button, `*▊▊▊HORNY MOOD▊▊▊*\n\n*TURN IT ON SO PEOPLE THEY WILL START TO MASTURBATE LOL*`, `${global.botname}`, m)
+await ZimBotInc.sendButtonText(m.chat, button, `*⚔️🍓HORNY MOOD⚔️🍓*\n\n*TURN IT ON SO PEOPLE THEY WILL START TO MASTURBATE LOL*`, `${global.botname}`, m)
 }
 }
 break
@@ -3369,8 +3369,8 @@ break
   await sleep(1500)
   let btn = [{
  urlButton: {
-  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  displayText: 'HELPER',
+  url: 'https://wa.me+687820687'
  }
   }, {
  callButton: {
@@ -3409,8 +3409,8 @@ for (let yoi of anu) {
     await sleep(1500)
     let btn = [{
  urlButton: {
-  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  displayText: 'GITHUB',
+  url: 'https://github.com/DARK-ASIF'
  }
   }, {
  quickReplyButton: {
@@ -3648,7 +3648,7 @@ let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader')
    if (!text) throw `Example : ${prefix + command} story wa anime`
    let yts = require("yt-search")
    let search = await yts(text)
-   let teks = 'github Search\n\n Result From '+text+'\n\n'
+   let teks = 'HELPER Search\n\n Result From '+text+'\n\n'
    let no = 1
    for (let i of search.all) {
   teks += `🎐No: ${no++}\n💮𝗧𝗬𝗣𝗘 : ${i.type}\n🔳𝗩𝗜𝗗𝗘𝗢 𝗜𝗗: ${i.videoId}\n🔴𝗧𝗜𝗧𝗟𝗘 : ${i.title}\n🎪𝗩𝗜𝗘𝗪𝗦 : ${i.views}\n🎬𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡 : ${i.timestamp}\n📡𝗨𝗣𝗟𝗢𝗔𝗗 𝗔𝗧 : ${i.ago}\n🎰𝗔𝗨𝗧𝗛𝗢𝗥 : ${i.author.name}\n📌𝗨𝗥𝗟 : ${i.url}\n\n─────────────────\n\n`
@@ -3754,7 +3754,7 @@ if (!isUrl(args[0]) && !args[0].includes('youtube')) throw '*The link you provid
 xa.Youtube(`${text}`).then(async (data) => {
 if (data.medias[0].formattedSize.split('MB')[0] >= 100) return reply('*File Over Limit* '+util.format(data)) 
 cap = `
-*▊▊▊YOUTUBE SHORTS▊▊▊*
+*⚔️🍓YOUTUBE SHORTS⚔️🍓*
 
 *⬤▶━━━━━━━━━2:30*\n\n\n\n*⬤TITLE:* ${data.title}\n*⬤QUALITY:* ${data.medias[0].quality}\n*⬤SIZE:* ${data.medias[0].formattedSize}\n*⬤DURATION* ${data.duration}\n*⬤ID:* ${data.medias[0].cached}\n*⬤LINK:* ${data.url}\n\n*DARK BOT INC*`
 buf = await getBuffer(data.thumbnail)
@@ -4176,8 +4176,8 @@ url: `${drips2.videos[0].url}`
 }
 }, {
 urlButton: {
-displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, 
-url: `https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL`
+displayText: `GITHUB`, 
+url: `https://github.com/DARK-ASIF`
 }
 }, {
 quickReplyButton: {
@@ -4238,8 +4238,8 @@ url: `${anu.url}`
 }
 }, {
 urlButton: {
-displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, 
-url: `https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL`
+displayText: `GITHUB`, 
+url: `https://github.com/DARK-ASIF`
 }
 }, {
 quickReplyButton: {
@@ -4636,7 +4636,7 @@ const sendm =  ZimBotInc.sendMessage(
 
    footer: `©DARK BOT INC 2022`,
 
-   title: "**▊▊▊SAVEFROM DL▊▊▊**",
+   title: "**⚔️🍓SAVEFROM DL⚔️🍓**",
 
    buttonText: "CLICK HERE",
 
@@ -4722,7 +4722,7 @@ if (!text) throw `Use example ${prefix + command} https://www.tiktok.com/@omagad
 if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) throw '*The link you provided is not valid*'
 
 anu = await fetchJson(`https://violetics.pw/api/downloader/tiktok?apikey=df7d-425a-3bc8&url=${text}`)
-let listmn = `*▊▊▊TIKTOK DL▊▊▊*\n\n*Title:* ${anu.result.title}\n*Author:* ${anu.result.id}\n*Url:* ${anu.result.url}`
+let listmn = `*⚔️🍓TIKTOK DL⚔️🍓*\n\n*Title:* ${anu.result.title}\n*Author:* ${anu.result.id}\n*Url:* ${anu.result.url}`
 buf = await getBuffer(anu.result.thumb)
 buf2 = await getBuffer(anu.result.link_dl2)
 let message = await prepareWAMessageMedia({ video: buf2, gifPlayback:false, jpegThumbnail:buf }, { upload: ZimBotInc.waUploadToServer })
@@ -4734,13 +4734,13 @@ hydratedContentText: listmn,
 hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'HELPER',
+url: 'https://wa.me/+923474187615'
 }
 }, {
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'GITHUB',
+url: 'https://github.com/DARK-ASIF'
 }
 }, {
 quickReplyButton: {
@@ -4777,7 +4777,7 @@ case 'tiktok': case 'tiktoknowm': case 'tiktokwm': case 'tt': case 'ttnowm': cas
       var hadir = randomNomor(300)
        var memek = randomNomor(1000)                      
      let caption = `
-     *▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : ASIF KHAN🖤👑\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*QUALITY* : nowatermark\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKE* : ${hadie}\n*SOURCE* : ${text}\n\n\n*DARK BOT INC*`
+     *⚔️🍓TIKTOK DL⚔️🍓*\n\n*AUTHOR* : ASIF KHAN🖤👑\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*QUALITY* : nowatermark\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKE* : ${hadie}\n*SOURCE* : ${text}\n\n\n*DARK BOT INC*`
      buf = await getBuffer(video.author.avatar)                
      ZimBotInc.sendMessage(m.chat, { image: { url: video.author.avatar }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m })
      ZimBotInc.sendMessage(m.chat, { video: { url: video.video.no_watermark }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*Downloading From ${text}*` }, { quoted: m })               
@@ -4797,7 +4797,7 @@ var hadi = randomNomor(100)
 var hadie = randomNomor(200)     
 var hadir = randomNomor(300)
 var memek = randomNomor(1000)                      
-let caption = `*▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : ASIF KHAN🖤👑\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKES* : ${hadie}\n*SOURCE* : ${text}\n\n\n*DARK BOT INC*`
+let caption = `*⚔️🍓TIKTOK DL⚔️🍓*\n\n*AUTHOR* : ASIF KHAN🖤👑\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKES* : ${hadie}\n*SOURCE* : ${text}\n\n\n*DARK BOT INC*`
 buf = await getBuffer(video.author.avatar)                
 ZimBotInc.sendMessage(m.chat, { image: { url: video.author.avatar }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m })
 ZimBotInc.sendMessage(m.chat, { video: { url: video.video.no_watermark }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*Downloading From ${text}*` }, { quoted: m })               
@@ -4817,7 +4817,7 @@ var hadi = randomNomor(100)
 var hadie = randomNomor(200)     
 var hadir = randomNomor(300)
 var memek = randomNomor(1000)                      
-let caption = `**▊▊▊TIKTOK DL▊▊▊**\n\n*⬤AUTHOR* : ASIF KHAN🖤👑\n*⬤NICKNAME* : ${video.author.nickname}\n*⬤CAPTION* : ${video.description}\n*⬤COMMENTS* : ${memek}\n*⬤CREATE* ${hadir} Ago\n*⬤LIKES* : ${hadi}\n*⬤DISLIKES* : ${hadie}\n*⬤ SOURCE* : ${text}`
+let caption = `**⚔️🍓TIKTOK DL⚔️🍓**\n\n*⬤AUTHOR* : ASIF KHAN🖤👑\n*⬤NICKNAME* : ${video.author.nickname}\n*⬤CAPTION* : ${video.description}\n*⬤COMMENTS* : ${memek}\n*⬤CREATE* ${hadir} Ago\n*⬤LIKES* : ${hadi}\n*⬤DISLIKES* : ${hadie}\n*⬤ SOURCE* : ${text}`
 buf = await getBuffer(video.author.avatar)                
 let message = await prepareWAMessageMedia({ image: buf, jpegThumbnail: buf }, { upload: ZimBotInc.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -4833,8 +4833,8 @@ url: `${text}`
 }
 }, {
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'GITHUB',
+url: 'https://github.com/DARK-ASIF'
 }
 }, {
 quickReplyButton: {
@@ -4969,7 +4969,7 @@ case 'ig2': case 'igdl2': case 'instagram2': {
 anu = await fetchJson(`https://api.akuari.my.id/downloader/igdl?link=${text}`)
 var oi = 1
 for(let i of anu.medias){                
-var txt = `*▊▊▊INSTA DL▊▊▊*\n\n*Username:* ${anu.user.username}\n*Fullname:* ${anu.user.fullName}\n*Followers:* ${anu.user.followers}\n*Type:* ${anu.medias[0].type}\n*Tipe:* ${anu.medias[0].fileType}\n*ID:* ${anu.user.id}\n*Jumlah Media:* ${oi++}\n*Url:* ${text}\n\n*DARK BOT INC*`
+var txt = `*⚔️🍓INSTA DL⚔️🍓*\n\n*Username:* ${anu.user.username}\n*Fullname:* ${anu.user.fullName}\n*Followers:* ${anu.user.followers}\n*Type:* ${anu.medias[0].type}\n*Tipe:* ${anu.medias[0].fileType}\n*ID:* ${anu.user.id}\n*Jumlah Media:* ${oi++}\n*Url:* ${text}\n\n*DARK BOT INC*`
 var buf = await getBuffer(anu.user.profilePicUrl)        
 ZimBotInc.sendMessage(m.chat, { image: { url: anu.user.profilePicUrl }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m }).catch((err) => m.reply('error'))
 ZimBotInc.sendMessage(m.chat, { video: { url: i.url }, jpegThumbnail:buf, caption: `${botname}`}, { quoted: m }).catch((err) => m.reply('error'))
@@ -5083,7 +5083,7 @@ if (!text) throw '*Enter a Link Query!*'
 if (!isUrl(args[0]) && !args[0].includes('twitter.com')) throw '*The link you provided is not valid*'
      
 xa.Twitter(`${text}`).then(async (data) => {                    
-let txt = `*▊▊▊TWITTER DL▊▊▊*\n\n`
+let txt = `*⚔️🍓TWITTER DL⚔️🍓*\n\n`
 txt += `*⬤TITLE :* ${data.title}\n`
 txt += `*⬤QUALITY :* ${data.medias[1].quality}\n`
 txt += `*⬤TYPE :* ${data.medias[1].extension}\n`
@@ -5107,7 +5107,7 @@ if (!isUrl(args[0]) && !args[0].includes('twitter.com')) throw '*The link you pr
      
 xa.Twitter(`${text}`).then(async (data) => {
 for (let x of data.medias) {
-let txt = `*▊▊▊TWITTER DL▊▊▊*n\n`
+let txt = `*⚔️🍓TWITTER DL⚔️🍓*n\n`
 txt += `*⬤TITLE :* ${data.title}\n`
 txt += `*⬤QUALITY :* ${x.quality}\n`
 txt += `*⬤TYPE:* ${x.extension}\n`
@@ -5140,7 +5140,7 @@ if (!isUrl(args[0]) && !args[0].includes('facebook.com')) throw '*The link you p
 let bocil = require('@bochilteam/scraper')  
 bocil.facebookdlv2(`${text}`).then(async (data) => {                   
 
-let txt = `*▊▊▊FB DOWNLOAD▊▊▊*\n\n`
+let txt = `*⚔️🍓FB DOWNLOAD⚔️🍓*\n\n`
 
 txt += `*⬤TITLE :* ${data.title}\n`
 
@@ -5191,7 +5191,7 @@ if (!text) throw '*Enter a Link Query!*'
 if (!isUrl(args[0]) && !args[0].includes('facebook.com')) throw '*The link you provided is not valid*'
                  
 xa.Facebook(`${text}`).then(async (data) => {                   
-let txt = `*▊▊▊FB6 DOWNLOAD▊▊▊*\n\n`
+let txt = `*⚔️🍓FB6 DOWNLOAD⚔️🍓*\n\n`
 txt += `*⬤TITLE :* ${data.title}\n`
 txt += `*⬤QUALITY :* ${data.medias[1].quality}\n`
 txt += `*:⬤TYPE* ${data.medias[1].extension}\n`
@@ -5255,7 +5255,7 @@ case 'speedtest': {
   break
   case 'report': {
     if (!args.join(" ")) return m.reply(`Example : \n- ${prefix + command} feature ig error min\n- ${prefix + command} this user is spamming min`)
-    teks = `*▊▊▊REPORT FEATURE▊▊▊*`
+    teks = `*⚔️🍓REPORT FEATURE⚔️🍓*`
     teks1 = `\n\nNUMBER : @${m.sender.split("@")[0]}\n*REPORT :* ${args.join(" ")}`
     teks2 = `\n\nSucces send to owner`
     for (let i of owner) {
@@ -5266,7 +5266,7 @@ case 'speedtest': {
     break
     case 'request': case 'suggest': {
     if (!args.join(" ")) return m.reply(`Example : ${prefix + command} min add a downloader feature`)
-    teks = `*▊▊▊REQUEST FEATURE▊▊▊*`
+    teks = `*⚔️🍓REQUEST FEATURE⚔️🍓*`
     teks1 = `\n\n*NUMBER :* @${m.sender.split("@")[0]}\n*REQUEST :* ${args.join(" ")}`
     teks2 = `\n\nSucces send to owner`
     for (let i of owner) {
@@ -5327,7 +5327,7 @@ text: `*Search Results From* ${text}`,
 
 footer: botname,
 
-title: "*▊▊▊ANIME▊▊▊*",
+title: "*⚔️🍓ANIME⚔️🍓*",
 
 buttonText: "CLICK HERE",
 
@@ -5356,8 +5356,8 @@ for (let i of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'GITHUB',
+url: 'https://github.com/DARK-ASIF'
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5375,8 +5375,8 @@ for (let yoi of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'GITHUB',
+url: 'https://github.com/DARK-ASIF'
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5408,8 +5408,8 @@ for (let i of anu) {
 await sleep(1500)
 let butoon = [{
 urlButton: {
-displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`,
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: `GITHUB`,
+url: 'https://github.com/DARK-ASIF'
 }
 },
 {
@@ -5418,8 +5418,6 @@ displayText: 'MENU',
 id: 'menu'
 }
 }]
-
-ZimBotInc.sendMessage(m.chat, { react: { text: `${global.reactmoji}`, key: m.key }})
 let media = await ZimBotInc.downloadAndSaveMediaMessage(quoted)
 let buffer = fs.readFileSync(media)
 if (/webp/.test(mime)) {
@@ -6118,7 +6116,7 @@ case 'igsearch':
       {
        text: `${ucapannya2} ${pushname} *Search Results From ${text} Click the button below to choose*`,
        footer: `© DARK BOT INC`,
-       title: "*▊▊▊APK DOWNLOAD▊▊▊*",
+       title: "*⚔️🍓APK DOWNLOAD⚔️🍓*",
        buttonText: "CLICK HERE",
        sections
       }, { quoted : m })                 
@@ -6135,7 +6133,7 @@ case 'igsearch':
                          dhupi.rexdldown(`${text}`).then(async (anu) => {        
                          if (anu[0].size.split('MB')[0] >= 150) return reply('*File Over Limit* '+util.format(anu))
                          for (let i of anu) {    
-                         linkye = `*▊▊▊APK DOWNLOAD▊▊▊*\n\n*TITLE:* ${i.title}\n*UPDATE:* ${i.up}\n*VERSION:* ${i.vers}\n*FILESIZE:* ${i.size}\n*URL:* \n*DESCRIPTION:* ${i.desc}\n\n*DARK BOT INC*`         
+                         linkye = `*⚔️🍓APK DOWNLOAD⚔️🍓*\n\n*TITLE:* ${i.title}\n*UPDATE:* ${i.up}\n*VERSION:* ${i.vers}\n*FILESIZE:* ${i.size}\n*URL:* \n*DESCRIPTION:* ${i.desc}\n\n*DARK BOT INC*`         
                               ZimBotInc.sendMessage(m.chat, { image: await getBuffer(i.thumb), jpegThumbnail: await getBuffer(i.thumb), caption: `${linkye}` }, { quoted: m })
                               ZimBotInc.sendMessage(m.chat, {document: await getBuffer(i.link), mimetype: `application/vnd.android.package-archive`, fileName: `${i.title}`}, {quoted:m})  
                               }  
@@ -7008,13 +7006,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'HELPER',
+url: 'https://wa.me/+923474187615'
 }
 }, {
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'GITHUB',
+url: 'https://github.com/DARK-ASIF'
 }
 }, {
 quickReplyButton: {
@@ -7750,13 +7748,13 @@ anu = `
 %readmore` 
     let btn = [{
         urlButton: {
-            displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-            url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+            displayText: 'HELPER',
+            url: 'https://wa.me/+923474187615'
         }
     }, {
         urlButton: {
-            displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-            url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+            displayText: 'GITHUB',
+            url: 'https://github.com/DARK-ASIF'
         }
     }, {
         quickReplyButton: {
@@ -7785,13 +7783,13 @@ anu = `
     hydratedFooterText: `${global.botname}`,
     hydratedButtons: [{
     urlButton: {
-    displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+    displayText: 'HELPER',
+    url: 'https://wa.me/+923474187615'
     }
     }, {
     urlButton: {
-    displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+    displayText: 'GITHUB',
+    url: 'https://github.com/DARK-ASIF'
     }
     }, {
     quickReplyButton: {
@@ -7823,13 +7821,13 @@ anu = `
     hydratedFooterText: `${botname}`,
     hydratedButtons: [{
     urlButton: {
-    displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+    displayText: 'HELPER',
+    url: 'https://wa.me/+923474187615'
     }
     }, {
     urlButton: {
-    displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+    displayText: 'GITHUB',
+    url: 'https://github.com/DARK-ASIF'
     }
     }, {
     quickReplyButton: {
@@ -7861,13 +7859,13 @@ anu = `
     hydratedFooterText: botname,
     hydratedButtons: [{
     urlButton: {
-    displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+    displayText: 'HELPER',
+    url: 'https://wa.me/+923474187615'
     }
     }, {
     urlButton: {
-    displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-    url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+    displayText: 'GITHUB',
+    url: 'https://github.com/DARK-ASIF'
     }
     }, {
     quickReplyButton: {
@@ -7897,7 +7895,7 @@ anu = `
         }
         
     var buffer = await getBuffer(ppuser)
-    const buttonsDefault = [{ urlButton: { displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, url : `https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'` } }, { urlButton: { displayText: `ʙᴏᴛ ɢʀᴏᴜᴘ`, url : `https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL` } },
+    const buttonsDefault = [{ urlButton: { displayText: `HELPER`, url : `https://wa.me/+923474187615` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/DARK-ASIF` } },
     {					
       quickReplyButton: {
       displayText: 'SPEED',
@@ -8074,13 +8072,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+"displayText": "HELPER",
+"url": "https://wa.me/+923474187615"
 }
 }, {
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'GITHUB',
+url: 'https://github.com/DARK-ASIF'
 }
 }
 ]
@@ -8126,13 +8124,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+"displayText": "HELPER",
+"url": "https://wa.me/+923474187615"
 }
 }, {
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'GITHUB',
+url: 'https://github.com/DARK-ASIF'
 }
 }
 ]
@@ -8196,13 +8194,13 @@ case 'photooxymenu': {
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  "displayText": "HELPER",
+  "url": "https://wa.me/+923474187615"
   }
   }, {
   urlButton: {
-  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  displayText: 'GITHUB',
+  url: 'https://github.com/DARK-ASIF'
   }
   }
   ]
@@ -8283,13 +8281,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+"displayText": "HELPER",
+"url": "https://wa.me/+923474187615"
 }
 }, {
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'GITHUB',
+url: 'https://github.com/DARK-ASIF'
 }
 }
 ]
@@ -8384,13 +8382,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+"displayText": "HELPER",
+"url": "https://wa.me/+923474187615"
 }
 }, {
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'GITHUB',
+url: 'https://github.com/DARK-ASIF'
 }
 }
 ]
@@ -8476,13 +8474,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+"displayText": "HELPER",
+"url": "https://wa.me/+923474187615"
 }
 }, {
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'GITHUB',
+url: 'https://github.com/DARK-ASIF'
 }
 }
 ]
@@ -8560,13 +8558,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+"displayText": "HELPER",
+"url": "https://wa.me/+923474187615"
 }
 }, {
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'GITHUB',
+url: 'https://github.com/DARK-ASIF'
 }
 }
 ]
@@ -8626,13 +8624,13 @@ case 'nsfwmenu':{
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  "displayText": "HELPER",
+  "url": "https://wa.me/+923474187615"
   }
   }, {
   urlButton: {
-  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  displayText: 'GITHUB',
+  url: 'https://github.com/DARK-ASIF'
   }
   }
   ]
@@ -8713,13 +8711,13 @@ case 'animemenu':{
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  "displayText": "HELPER",
+  "url": "https://wa.me/+923474187615"
   }
   }, {
   urlButton: {
-  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  displayText: 'GITHUB',
+  url: 'https://github.com/DARK-ASIF'
   }
   }
   ]
@@ -8778,13 +8776,13 @@ case 'convertmenu': {
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  "displayText": "HELPER",
+  "url": "https://wa.me/+923474187615"
   }
   }, {
   urlButton: {
-  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  displayText: 'GITHUB',
+  url: 'https://github.com/DARK-ASIF'
   }
   }
   ]
@@ -8839,13 +8837,13 @@ case 'toolmenu': {
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  "displayText": "HELPER",
+  "url": "https://wa.me/+923474187615"
   }
   }, {
   urlButton: {
-  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  displayText: 'GITHUB',
+  url: 'https://github.com/DARK-ASIF'
   }
   }
   ]
@@ -8912,13 +8910,13 @@ case 'searchmenu':{
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-  "url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  "displayText": "HELPER",
+  "url": "https://wa.me/+923474187615"
   }
   }, {
   urlButton: {
-  displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-  url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+  displayText: 'GITHUB',
+  url: 'https://github.com/DARK-ASIF'
   }
   }
   ]
@@ -8969,13 +8967,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "ʙᴏᴛ ɢʀᴏᴜᴘ",
-"url": "https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+"displayText": "HELPER",
+"url": "https://wa.me/+923474187615"
 }
 }, {
 urlButton: {
-displayText: 'ʙᴏᴛ ɢʀᴏᴜᴘ',
-url: 'https://chat.whatsapp.com/DDyBlm1ftOyD6Ud6aCGARL'
+displayText: 'GITHUB',
+url: 'https://github.com/DARK-ASIF'
 }
 }
 ]
@@ -9046,13 +9044,13 @@ m.copyNForward(other, true, m.quoted && m.quoted.fromMe ? {
    if (antiToxic)
    if (bad.includes(zimbotincv3)) {
    if (m.text) {
-   zimbotv3 = `*▊▊▊ANTIBAD WORDS▊▊▊*\n\n*Lucky you, you are admin*`
+   zimbotv3 = `*⚔️🍓ANTIBAD WORDS⚔️🍓*\n\n*Lucky you, you are admin*`
    if (isAdmins) return reply(zimbotv3)
    if (m.key.fromMe) return reply(zimbotv3)
    if (isCreator) return reply(zimbotv3)
    kice = m.sender
    await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-   ZimBotInc.sendMessage(from, {text:`*▊▊▊ANTIBAD WORDS▊▊▊*\n\n@${kice.split("@")[0]} *was kicked because of being rude to others in this group*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})}
+   ZimBotInc.sendMessage(from, {text:`*⚔️🍓ANTIBAD WORDS⚔️🍓*\n\n@${kice.split("@")[0]} *was kicked because of being rude to others in this group*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})}
    }
 if (isCmd && budy.toLowerCase() != undefined) {
     if (m.chat.endsWith('broadcast')) return
